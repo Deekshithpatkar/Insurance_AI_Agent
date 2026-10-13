@@ -1,65 +1,57 @@
-import sys
-import os
 from langchain_core.tools import tool
-
-# Ensure imports work whether executed directly or as a package
 try:
-    from app.db_connection import get_connection
+    from app.db_connection import connection
 except ImportError:
-    from db_connection import get_connection
+    from db_connection import connection
+
 
 @tool
-def patient_info(patient_name: str):
-    """get patient details"""
-    try:
-        conn = get_connection()
-        cursor = conn.cursor()
-        query = "Select name, age, diagnosis, treatment from patients where lower(name) = lower(%s)"
-        cursor.execute(query, (patient_name,))
-        patient = cursor.fetchone()
-        cursor.close()
+def check_patient_policy(patient_name: str):
+    """Retrieve a patient's details and check their treatment against the policy rules in PostgreSQL."""
 
-        if patient is None:
-            return f"No patient named {patient_name} found."
+    cursor = connection.cursor()
 
+    query = """
+        SELECT
+            p.name,
+            p.age,
+            p.diagnosis,
+            p.treatment,
+            pr.covered,
+            pr.coverage_limit
+        FROM patients p
+        LEFT JOIN policy_rules pr
+            ON LOWER(p.treatment) = LOWER(pr.treatment)
+        WHERE LOWER(p.name) = LOWER(%s);
+    """
+
+    cursor.execute(query, (patient_name,))
+    result = cursor.fetchone()
+    cursor.close()
+
+    if result is None:
+        return {"status": "patient_not_found"}
+
+    name, age, diagnosis, treatment, covered, limit = result
+
+    if covered is None:
         return {
-            'name': patient[0],
-            'age': patient[1],
-            'diagnosis': patient[2],
-            'treatment': patient[3]
+            "status": "policy_rule_not_found",
+            "patient": name,
+            "diagnosis": diagnosis,
+            "treatment": treatment
         }
-    except Exception as e:
-        return f"Database error: {str(e)}"
 
-@tool
-def policy_coverage(treatment: str):
-    """check whether the treatment is covered by the policy"""
-    covered_treatment = ["appendectomy", "chemotherapy", "radiation therapy"]
-
-    if treatment.lower() in covered_treatment:
-        return f"{treatment} covered by the policy"
-
-    return f"{treatment} not covered by the policy"
-
-@tool
-def coverage_limit(treatment: str):
-    """Get the maximum amount covered for a treatment."""
-    limit = {
-        "appendectomy": 5000,
-        "chemotherapy": 30000,
-        "radiation therapy": 10000
+    return {
+        "status": "success",
+        "patient": name,
+        "age": age,
+        "diagnosis": diagnosis,
+        "treatment": treatment,
+        "covered": covered,
+        "coverage_limit": float(limit) if limit is not None else None
     }
-    if treatment.lower() in limit:
-        return limit[treatment.lower()]
-    return 0
 
-@tool
-def calculate_remaining(treatment: str, treatment_cost: float, coverage_limit: float):
-    """calculate how much patient has to pay"""
-    remaining = treatment_cost - coverage_limit
-    if remaining > 0:
-        return f"patient has to pay {remaining}"
-    return "the treatment is covered by the policy"
 
-# List of tools provided to the agent
-tools = [patient_info, policy_coverage, coverage_limit, calculate_remaining]
+# Export list of tools for the agent
+tools = [check_patient_policy]

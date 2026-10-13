@@ -19,3 +19,6 @@ def get_connection():
             port=os.getenv("DB_PORT", "5432")
         )
     return _connection
+
+# Pre-initialized connection instance for tools.py
+connection = get_connection()
