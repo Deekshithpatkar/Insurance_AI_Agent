@@ -8,7 +8,7 @@ load_dotenv()
 _connection = None
 
 def get_connection():
-    """Establish and return a connection to the PostgreSQL database."""
+    """Create the database connection on first use and reuse it afterward."""
     global _connection
     if _connection is None or _connection.closed != 0:
         _connection = psycopg2.connect(
@@ -19,6 +19,3 @@ def get_connection():
             port=os.getenv("DB_PORT", "5432")
         )
     return _connection
-
-# Pre-initialized connection instance for tools.py
-connection = get_connection()

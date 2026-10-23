@@ -1,12 +1,7 @@
-import sys
-import os
 from langchain_ollama import ChatOllama
 from langchain_core.messages import HumanMessage, ToolMessage, SystemMessage
 
-try:
-    from app.tools import tools
-except ImportError:
-    from tools import tools
+from .tools import tools
 
 system_prompt = """
 You are a healthcare insurance assistant.
@@ -31,7 +26,7 @@ def run_agent_loop(user_input: str, llm_tool=None):
     if llm_tool is None:
         llm_tool = configure_agent()
 
-    message = [HumanMessage(content=user_input), SystemMessage(content=system_prompt)]
+    message = [SystemMessage(content=system_prompt), HumanMessage(content=user_input)]
 
     while True:
         response = llm_tool.invoke(message)

@@ -3,3 +3,6 @@ langchain-core
 langgraph
 psycopg2-binary
 python-dotenv
+laya
+matplotlib
+Faker
