@@ -1,0 +1,160 @@
+{"id": 1, "query": "Is Alex Wilson's Inpatient rehabilitation covered, and what is the policy limit?", "tool": "check_patient_policy", "category": "clean"}
+{"id": 2, "query": "Check the coverage status and limit for Alex Shaw's Fertility treatment.", "tool": "check_patient_policy", "category": "clean"}
+{"id": 3, "query": "Does Alex Hunt's plan cover Experimental gene therapy? Please give the coverage limit.", "tool": "check_patient_policy", "category": "clean"}
+{"id": 4, "query": "Look up whether CPAP therapy is covered for Alex Heath.", "tool": "check_patient_policy", "category": "clean"}
+{"id": 5, "query": "What does the policy say about Alex Garcia's Acupuncture?", "tool": "check_patient_policy", "category": "clean"}
+{"id": 6, "query": "Can you verify coverage and the limit for Stem cell therapy for Alex Walker?", "tool": "check_patient_policy", "category": "clean"}
+{"id": 7, "query": "Tell me if Alex Burke has coverage for Experimental gene therapy and the maximum amount.", "tool": "check_patient_policy", "category": "clean"}
+{"id": 8, "query": "Please check the policy rule for Alex Hawkins's Genetic testing.", "tool": "check_patient_policy", "category": "clean"}
+{"id": 9, "query": "I need to know what insurance will allow for Kimberly Cross's Cataract surgery.", "tool": "check_patient_policy", "category": "paraphrase"}
+{"id": 10, "query": "Would Nicole Willis's plan pay toward Endoscopy, and up to how much?", "tool": "check_patient_policy", "category": "paraphrase"}
+{"id": 11, "query": "Can you look into the benefits available to Lucas Rodriguez for Inpatient rehabilitation?", "tool": "check_patient_policy", "category": "paraphrase"}
+{"id": 12, "query": "Find the policy details that apply to Joanna Briggs's CPAP therapy.", "tool": "check_patient_policy", "category": "paraphrase"}
+{"id": 13, "query": "How does the insurance handle Acupuncture in Meghan Clark's case?", "tool": "check_patient_policy", "category": "paraphrase"}
+{"id": 14, "query": "Please see what reimbursement terms apply to William Noble's Stem cell therapy.", "tool": "check_patient_policy", "category": "paraphrase"}
+{"id": 15, "query": "Is there a benefit cap for Zoe Palmer when it comes to Knee replacement?", "tool": "check_patient_policy", "category": "paraphrase"}
+{"id": 16, "query": "I am checking Gilbert Grant's benefits for X-ray; what does the plan allow?", "tool": "check_patient_policy", "category": "paraphrase"}
+{"id": 17, "query": "Is Jim Walter's Organ transplant coverd and what is the policy limt?", "tool": "check_patient_policy", "category": "typo"}
+{"id": 18, "query": "Can you chek coverage for Laura Johnson's Organ transplant?", "tool": "check_patient_policy", "category": "typo"}
+{"id": 19, "query": "Look up the insurence rule for Heidi Henderson's Acupuncture.", "tool": "check_patient_policy", "category": "typo"}
+{"id": 20, "query": "Does Kevin Jimenez have benifits for Fertility treatment?", "tool": "check_patient_policy", "category": "typo"}
+{"id": 21, "query": "Please verfy the coverage limit for Jonathan Christensen's Stem cell therapy.", "tool": "check_patient_policy", "category": "typo"}
+{"id": 22, "query": "Is the Genetic testing aproved under Katherine Rangel's policy?", "tool": "check_patient_policy", "category": "typo"}
+{"id": 23, "query": "What is the coverge status of Jason Howe's Prescription medication?", "tool": "check_patient_policy", "category": "typo"}
+{"id": 24, "query": "Check if Joseph Johnson's plan covrs Sleep study, please.", "tool": "check_patient_policy", "category": "typo"}
+{"id": 25, "query": "Can you check Carl Williams's plan for me?", "tool": "check_patient_policy", "category": "ambiguous"}
+{"id": 26, "query": "What does the policy say about Stacie Garcia?", "tool": "check_patient_policy", "category": "ambiguous"}
+{"id": 27, "query": "Can you look up whether this is included for Julie Olson?", "tool": "check_patient_policy", "category": "ambiguous"}
+{"id": 28, "query": "Is Stephen Sims's treatment covered?", "tool": "check_patient_policy", "category": "ambiguous"}
+{"id": 29, "query": "Please check the insurance details for John Noble.", "tool": "check_patient_policy", "category": "ambiguous"}
+{"id": 30, "query": "What is the coverage situation for Ms. Kristin Santiago's care?", "tool": "check_patient_policy", "category": "ambiguous"}
+{"id": 31, "query": "Can you confirm what Robert Shaw is eligible for?", "tool": "check_patient_policy", "category": "ambiguous"}
+{"id": 32, "query": "Look up the plan limit for Stephen Hamilton, please.", "tool": "check_patient_policy", "category": "ambiguous"}
+{"id": 33, "query": "Check coverage for Derrick Johnson's Knee replacement, then tell me the diagnosis on file.", "tool": "check_patient_policy", "category": "multi_intent"}
+{"id": 34, "query": "Is Linda Ellis's Echocardiogram covered? Also confirm the policy limit.", "tool": "check_patient_policy", "category": "multi_intent"}
+{"id": 35, "query": "Look up Katherine Dorsey's CT scan coverage and check the treatment listed on file.", "tool": "check_patient_policy", "category": "multi_intent"}
+{"id": 36, "query": "Please verify the Maternity care rule for John Dixon and give me the coverage cap.", "tool": "check_patient_policy", "category": "multi_intent"}
+{"id": 37, "query": "Tell me if Rhonda Grant's CPAP therapy is covered and what diagnosis the record shows.", "tool": "check_patient_policy", "category": "multi_intent"}
+{"id": 38, "query": "Check the policy for Sandra Stewart's Hearing aids, and confirm the patient's age.", "tool": "check_patient_policy", "category": "multi_intent"}
+{"id": 39, "query": "Find Annette Norris's coverage status for Mental health counseling and the applicable limit.", "tool": "check_patient_policy", "category": "multi_intent"}
+{"id": 40, "query": "First check whether Kaylee Chavez's Acupuncture is covered, then summarize the policy rule.", "tool": "check_patient_policy", "category": "multi_intent"}
+{"id": 41, "query": "If Tracy Kirby's treatment costs $449.19 and the limit is $319.14, how much is out of pocket?", "tool": "calculate_out_of_pocket", "category": "clean"}
+{"id": 42, "query": "Calculate what Austin Adams owes on a $54,501.92 bill with $56,069.54 of coverage.", "tool": "calculate_out_of_pocket", "category": "clean"}
+{"id": 43, "query": "How much remains for Mr. Paul Jenkins MD to pay after $0.00 coverage on a $161,433.21 treatment?", "tool": "calculate_out_of_pocket", "category": "clean"}
+{"id": 44, "query": "Work out Aaron Carpenter's out-of-pocket amount for $15,541.21 in charges and a $11,373.74 limit.", "tool": "calculate_out_of_pocket", "category": "clean"}
+{"id": 45, "query": "For Angela Leon, subtract the $21,450.93 coverage limit from the $45,478.39 treatment cost.", "tool": "calculate_out_of_pocket", "category": "clean"}
+{"id": 46, "query": "What balance does Marc Walton owe if the treatment is $7,308.14 and insurance covers up to $4,576.68?", "tool": "calculate_out_of_pocket", "category": "clean"}
+{"id": 47, "query": "Compute Mary Reid's patient share for a $42,465.90 treatment with a $38,539.76 cap.", "tool": "calculate_out_of_pocket", "category": "clean"}
+{"id": 48, "query": "Please calculate the remaining amount on Erik Aguilar's $1,546.68 bill after a $2,519.38 benefit.", "tool": "calculate_out_of_pocket", "category": "clean"}
+{"id": 49, "query": "After insurance pays up to $2,892.33, what bill is left for Tiffany Vasquez from $1,939.43?", "tool": "calculate_out_of_pocket", "category": "paraphrase"}
+{"id": 50, "query": "How much would Brandy Walker need to pay themselves for a $4,096.63 service with $2,802.89 covered?", "tool": "calculate_out_of_pocket", "category": "paraphrase"}
+{"id": 51, "query": "Can you figure out the uncovered balance on Tina Liu's $4,770.43 charge, limit $1,994.51?", "tool": "calculate_out_of_pocket", "category": "paraphrase"}
+{"id": 52, "query": "What is the gap between Angela Barnett's $2,528.97 treatment and a $0.00 plan allowance?", "tool": "calculate_out_of_pocket", "category": "paraphrase"}
+{"id": 53, "query": "Estimate the patient responsibility: Rachel Herman, $38,009.04 cost, $28,214.63 benefit.", "tool": "calculate_out_of_pocket", "category": "paraphrase"}
+{"id": 54, "query": "Once the $0.00 benefit is applied to $12,713.60, what is Jason Morton's share?", "tool": "calculate_out_of_pocket", "category": "paraphrase"}
+{"id": 55, "query": "Tell me the remaining bill for Christina Smith; charges $100,830.85, insurance maximum $0.00.", "tool": "calculate_out_of_pocket", "category": "paraphrase"}
+{"id": 56, "query": "What portion of the $63,068.28 would not be paid by a $59,853.35 limit for Stephen Williams?", "tool": "calculate_out_of_pocket", "category": "paraphrase"}
+{"id": 57, "query": "Calcualte Hayden Hammond's out of pocket on $1,229.03 with a $0.00 limt.", "tool": "calculate_out_of_pocket", "category": "typo"}
+{"id": 58, "query": "How much does Jordan Murphy owe after $47,855.42 coverge on a $30,749.31 bill?", "tool": "calculate_out_of_pocket", "category": "typo"}
+{"id": 59, "query": "Work out Gabriel Martinez's remaing balance for $140,948.49 cost and $124,359.29 insurence.", "tool": "calculate_out_of_pocket", "category": "typo"}
+{"id": 60, "query": "What is the out-of-poket amount for Laura Ballard: $15,185.72 cost, $0.00 limit?", "tool": "calculate_out_of_pocket", "category": "typo"}
+{"id": 61, "query": "Subtrct $0.00 from Joseph Hamilton's $13,524.03 treatment bill.", "tool": "calculate_out_of_pocket", "category": "typo"}
+{"id": 62, "query": "Can you calulate Kyle Gregory's patient share on $2,569.15 when the cap is $1,245.89?", "tool": "calculate_out_of_pocket", "category": "typo"}
+{"id": 63, "query": "How much is un-covered for James Gonzalez if treatment is $1,803.79 and limit $1,245.89?", "tool": "calculate_out_of_pocket", "category": "typo"}
+{"id": 64, "query": "Figure Amber Gardner's balence after a $15,293.79 allowance against $14,592.93.", "tool": "calculate_out_of_pocket", "category": "typo"}
+{"id": 65, "query": "How much does Jodi Fischer owe?", "tool": "calculate_out_of_pocket", "category": "ambiguous"}
+{"id": 66, "query": "What is the remaining balance for Michael Rich?", "tool": "calculate_out_of_pocket", "category": "ambiguous"}
+{"id": 67, "query": "Can you calculate Joseph Floyd's patient share on this bill?", "tool": "calculate_out_of_pocket", "category": "ambiguous"}
+{"id": 68, "query": "How much is left after insurance for Tina Martin?", "tool": "calculate_out_of_pocket", "category": "ambiguous"}
+{"id": 69, "query": "What would Jean Coleman's out-of-pocket amount be?", "tool": "calculate_out_of_pocket", "category": "ambiguous"}
+{"id": 70, "query": "Can you work out the uncovered portion of Blake Torres's care?", "tool": "calculate_out_of_pocket", "category": "ambiguous"}
+{"id": 71, "query": "How much does the plan leave for Dennis Jimenez to pay?", "tool": "calculate_out_of_pocket", "category": "ambiguous"}
+{"id": 72, "query": "Please calculate the remainder for Jennifer Mcdonald.", "tool": "calculate_out_of_pocket", "category": "ambiguous"}
+{"id": 73, "query": "Calculate John Wilson's share for $2,633.11 with a $3,644.29 cap, then check the policy.", "tool": "calculate_out_of_pocket", "category": "multi_intent"}
+{"id": 74, "query": "What is left on Rebecca Cabrera's $15,084.88 bill after $11,373.74 coverage, and is that covered?", "tool": "calculate_out_of_pocket", "category": "multi_intent"}
+{"id": 75, "query": "Work out the $3,042.85 minus $3,076.77 and tell me whether Crystal Mckay needs authorization.", "tool": "calculate_out_of_pocket", "category": "multi_intent"}
+{"id": 76, "query": "Find Maria Russell's remaining amount for $43,931.32/$47,855.42, then escalate if anything is disputed.", "tool": "calculate_out_of_pocket", "category": "multi_intent"}
+{"id": 77, "query": "Calculate the balance for Sarah Santiago at $7,795.98 with $4,576.68 insurance and state the difference.", "tool": "calculate_out_of_pocket", "category": "multi_intent"}
+{"id": 78, "query": "How much does Heather Moore owe on $2,249.31 after a $3,076.77 benefit, and what is the plan limit?", "tool": "calculate_out_of_pocket", "category": "multi_intent"}
+{"id": 79, "query": "Compute Laura Ryan's copay from $1,585.76 and $0.00, then check the treatment record.", "tool": "calculate_out_of_pocket", "category": "multi_intent"}
+{"id": 80, "query": "Please find the out-of-pocket amount for Mike Peters and confirm the $8,385.43 limit.", "tool": "calculate_out_of_pocket", "category": "multi_intent"}
+{"id": 81, "query": "Submit a prior authorization request for Cindy Phillips's Genetic testing.", "tool": "request_prior_authorization", "category": "clean"}
+{"id": 82, "query": "Please request prior approval for Hearing aids for Justin Garcia.", "tool": "request_prior_authorization", "category": "clean"}
+{"id": 83, "query": "Start a prior authorization for Troy Jackson to receive X-ray.", "tool": "request_prior_authorization", "category": "clean"}
+{"id": 84, "query": "File an authorization request for Olivia Bowen's Mental health counseling.", "tool": "request_prior_authorization", "category": "clean"}
+{"id": 85, "query": "Can you initiate pre-approval for MRI scan for Mark Hunter?", "tool": "request_prior_authorization", "category": "clean"}
+{"id": 86, "query": "Request insurance authorization before Ryan Carter has Ultrasound.", "tool": "request_prior_authorization", "category": "clean"}
+{"id": 87, "query": "Open a prior approval request for Dean Brown's Ambulance transport.", "tool": "request_prior_authorization", "category": "clean"}
+{"id": 88, "query": "I need a prior authorization submitted for Acupuncture under Steven Frank.", "tool": "request_prior_authorization", "category": "clean"}
+{"id": 89, "query": "Get the insurer's permission in advance for Alan Davis's Prescription medication.", "tool": "request_prior_authorization", "category": "paraphrase"}
+{"id": 90, "query": "Arrange the required pre-clearance for Genetic testing for Bryce Jennings.", "tool": "request_prior_authorization", "category": "paraphrase"}
+{"id": 91, "query": "Can you have the plan review Taylor Bell's Outpatient surgery before it happens?", "tool": "request_prior_authorization", "category": "paraphrase"}
+{"id": 92, "query": "Please send Lisa Pena's MRI scan for advance insurance review.", "tool": "request_prior_authorization", "category": "paraphrase"}
+{"id": 93, "query": "We need approval on file before Tammy Stewart receives X-ray; start that process.", "tool": "request_prior_authorization", "category": "paraphrase"}
+{"id": 94, "query": "Put in the pre-certification request for Joel Werner's Prescription medication.", "tool": "request_prior_authorization", "category": "paraphrase"}
+{"id": 95, "query": "Have the insurer authorize Endoscopy ahead of time for Melissa Callahan.", "tool": "request_prior_authorization", "category": "paraphrase"}
+{"id": 96, "query": "Please get advance clearance for Tammy Price to undergo Hip replacement.", "tool": "request_prior_authorization", "category": "paraphrase"}
+{"id": 97, "query": "Submmit prior auth for Heather Moss's X-ray.", "tool": "request_prior_authorization", "category": "typo"}
+{"id": 98, "query": "Request pre-aproval for Experimental gene therapy for Alexander Dominguez.", "tool": "request_prior_authorization", "category": "typo"}
+{"id": 99, "query": "Start the authorizaton process for Tyler Marsh's Endoscopy.", "tool": "request_prior_authorization", "category": "typo"}
+{"id": 100, "query": "Can you file an authrization for Randall Flores to get Acupuncture?", "tool": "request_prior_authorization", "category": "typo"}
+{"id": 101, "query": "Please get insurence approval in advance for Kimberly Peterson's Knee replacement.", "tool": "request_prior_authorization", "category": "typo"}
+{"id": 102, "query": "Open a prior authorisation requst for Chiropractic care under Mikayla Rodriguez.", "tool": "request_prior_authorization", "category": "typo"}
+{"id": 103, "query": "We need pre-certifcation for Bailey Martinez's Knee replacement.", "tool": "request_prior_authorization", "category": "typo"}
+{"id": 104, "query": "Get Matthew Rios's Genetic testing pre-approved by the plan, please.", "tool": "request_prior_authorization", "category": "typo"}
+{"id": 105, "query": "Can you get this approved for Kenneth Kelly?", "tool": "request_prior_authorization", "category": "ambiguous"}
+{"id": 106, "query": "Please start the approval process for David Fisher.", "tool": "request_prior_authorization", "category": "ambiguous"}
+{"id": 107, "query": "The plan needs to sign off before treatment; can you help Calvin Daniels?", "tool": "request_prior_authorization", "category": "ambiguous"}
+{"id": 108, "query": "Can you arrange the review that Taylor Sutton needs first?", "tool": "request_prior_authorization", "category": "ambiguous"}
+{"id": 109, "query": "Please get advance approval for David Hernandez's care.", "tool": "request_prior_authorization", "category": "ambiguous"}
+{"id": 110, "query": "The clinic says Donald Mendoza needs clearance before the procedure.", "tool": "request_prior_authorization", "category": "ambiguous"}
+{"id": 111, "query": "Can you send Ernest Raymond's request to insurance for review?", "tool": "request_prior_authorization", "category": "ambiguous"}
+{"id": 112, "query": "We need permission before moving forward with Sara Tran.", "tool": "request_prior_authorization", "category": "ambiguous"}
+{"id": 113, "query": "Request prior authorization for Tonya Palmer's Acupuncture, then check its coverage limit.", "tool": "request_prior_authorization", "category": "multi_intent"}
+{"id": 114, "query": "Submit pre-approval for Mark Webster's Hearing aids and tell me the treatment on file.", "tool": "request_prior_authorization", "category": "multi_intent"}
+{"id": 115, "query": "Start authorization for Organ transplant for Matthew Smith, and calculate the patient cost.", "tool": "request_prior_authorization", "category": "multi_intent"}
+{"id": 116, "query": "File a prior auth for Julie Cordova's Outpatient surgery; if it is disputed, send it to a specialist.", "tool": "request_prior_authorization", "category": "multi_intent"}
+{"id": 117, "query": "Get advance approval for Shannon Ho's Mental health counseling and verify the policy rule.", "tool": "request_prior_authorization", "category": "multi_intent"}
+{"id": 118, "query": "Please request authorization for Fertility treatment and check whether Jennifer Cherry's plan covers it.", "tool": "request_prior_authorization", "category": "multi_intent"}
+{"id": 119, "query": "Open the authorization case for Crystal Calderon, then confirm the diagnosis in their record.", "tool": "request_prior_authorization", "category": "multi_intent"}
+{"id": 120, "query": "Have Curtis Howard's Hearing aids reviewed in advance and report the coverage limit.", "tool": "request_prior_authorization", "category": "multi_intent"}
+{"id": 121, "query": "Escalate Kimberly Wells's disputed Dental surgery claim to a human specialist.", "tool": "escalate_to_human_specialist", "category": "clean"}
+{"id": 122, "query": "Please connect Lauren Lopez with a specialist about this denied claim.", "tool": "escalate_to_human_specialist", "category": "clean"}
+{"id": 123, "query": "A human needs to review Brittany English's urgent insurance complaint.", "tool": "escalate_to_human_specialist", "category": "clean"}
+{"id": 124, "query": "Have a person look into Robin Conley's unresolved claim issue.", "tool": "escalate_to_human_specialist", "category": "paraphrase"}
+{"id": 125, "query": "Arrange a call from an insurance specialist for Rebecca Fowler's dispute.", "tool": "escalate_to_human_specialist", "category": "paraphrase"}
+{"id": 126, "query": "Please pass Jake Simon's complaint to someone who can review it.", "tool": "escalate_to_human_specialist", "category": "paraphrase"}
+{"id": 127, "query": "Escalate Patrick Lutz's claim dispuit to a human specialist.", "tool": "escalate_to_human_specialist", "category": "typo"}
+{"id": 128, "query": "Please get a real person to review Daniel Allison's urgent complant.", "tool": "escalate_to_human_specialist", "category": "typo"}
+{"id": 129, "query": "Have a specalist call Laura Sosa about this claim issue.", "tool": "escalate_to_human_specialist", "category": "typo"}
+{"id": 130, "query": "Can someone help Victor Black with this issue?", "tool": "escalate_to_human_specialist", "category": "ambiguous"}
+{"id": 131, "query": "I need a real person to call Brooke Hicks back.", "tool": "escalate_to_human_specialist", "category": "ambiguous"}
+{"id": 132, "query": "Please have a specialist review what happened to Nicholas Cook.", "tool": "escalate_to_human_specialist", "category": "ambiguous"}
+{"id": 133, "query": "Escalate Andrew Watkins's disputed claim and ask a specialist to check the coverage decision.", "tool": "escalate_to_human_specialist", "category": "multi_intent"}
+{"id": 134, "query": "Please connect Carla Carter to a human and review the urgent claim complaint.", "tool": "escalate_to_human_specialist", "category": "multi_intent"}
+{"id": 135, "query": "This is outside the insurance tools: Heather Kaufman needs a person to advise on a new symptom.", "tool": "escalate_to_human_specialist", "category": "out_of_scope"}
+{"id": 136, "query": "I know this is not a policy question; get a human to help Paul Smith choose a medication.", "tool": "escalate_to_human_specialist", "category": "out_of_scope"}
+{"id": 137, "query": "Please send Karen Henderson to a live representative for a legal question about the accident.", "tool": "escalate_to_human_specialist", "category": "out_of_scope"}
+{"id": 138, "query": "A human should handle Stephanie Werner's request to change a pharmacy, which this tool cannot do.", "tool": "escalate_to_human_specialist", "category": "out_of_scope"}
+{"id": 139, "query": "This is not a coverage lookup; connect Carolyn Black MD with someone about finding a doctor.", "tool": "escalate_to_human_specialist", "category": "out_of_scope"}
+{"id": 140, "query": "Can a person help Carla Eaton book an appointment? This assistant cannot schedule it.", "tool": "escalate_to_human_specialist", "category": "out_of_scope"}
+{"id": 141, "query": "Route Sonya Schneider's request for medical advice to a qualified human; it is outside insurance support.", "tool": "escalate_to_human_specialist", "category": "out_of_scope"}
+{"id": 142, "query": "This is beyond the tool's scope: James Richardson needs a person to update contact details.", "tool": "escalate_to_human_specialist", "category": "out_of_scope"}
+{"id": 143, "query": "Please find a human for Christian Bishop's request to cancel the plan; do not process it here.", "tool": "escalate_to_human_specialist", "category": "out_of_scope"}
+{"id": 144, "query": "This is not a claim question. Have someone help William Washington replace a lost insurance card.", "tool": "escalate_to_human_specialist", "category": "out_of_scope"}
+{"id": 145, "query": "I need a real person to answer Molly James's question about medication side effects.", "tool": "escalate_to_human_specialist", "category": "out_of_scope"}
+{"id": 146, "query": "Connect Maria Bailey to a human for help selecting an in-network doctor.", "tool": "escalate_to_human_specialist", "category": "out_of_scope"}
+{"id": 147, "query": "The assistant cannot book transport; have a representative contact Barbara Stone.", "tool": "escalate_to_human_specialist", "category": "out_of_scope"}
+{"id": 148, "query": "Please send Melinda Bryant's request for a specialist recommendation to a human.", "tool": "escalate_to_human_specialist", "category": "out_of_scope"}
+{"id": 149, "query": "This is outside the available tools: Angela Maxwell wants help changing their mailing address.", "tool": "escalate_to_human_specialist", "category": "out_of_scope"}
+{"id": 150, "query": "A person should answer Johnny Collins's question about a prescription, not the routing assistant.", "tool": "escalate_to_human_specialist", "category": "out_of_scope"}
+{"id": 151, "query": "Have a live representative discuss plan enrollment with Courtney Nguyen; it is not a policy lookup.", "tool": "escalate_to_human_specialist", "category": "out_of_scope"}
+{"id": 152, "query": "Please ask a human to help Evelyn Meadows schedule a routine checkup.", "tool": "escalate_to_human_specialist", "category": "out_of_scope"}
+{"id": 153, "query": "This request is outside claim support. Connect Shannon Powell with someone about a bill payment plan.", "tool": "escalate_to_human_specialist", "category": "out_of_scope"}
+{"id": 154, "query": "A specialist should handle Robert Robinson's request for a copy of their medical records.", "tool": "escalate_to_human_specialist", "category": "out_of_scope"}
+{"id": 155, "query": "I need a human to explain Hannah Cobb's diagnosis; that is outside the insurance tools.", "tool": "escalate_to_human_specialist", "category": "out_of_scope"}
+{"id": 156, "query": "This is not a coverage question; have a person help Robert James find a nearby clinic.", "tool": "escalate_to_human_specialist", "category": "out_of_scope"}
+{"id": 157, "query": "Please route Patrick Douglas's request to update a dependent to a live support representative.", "tool": "escalate_to_human_specialist", "category": "out_of_scope"}
+{"id": 158, "query": "The available tools cannot give medical advice; have a qualified person speak with Derek Houston.", "tool": "escalate_to_human_specialist", "category": "out_of_scope"}
+{"id": 159, "query": "Have someone call Ryan Wallace about a password reset, which this insurance assistant cannot do.", "tool": "escalate_to_human_specialist", "category": "out_of_scope"}
+{"id": 160, "query": "This is out of scope: Mark Young wants a human to explain how to submit a general complaint.", "tool": "escalate_to_human_specialist", "category": "out_of_scope"}
