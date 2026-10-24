@@ -6,3 +6,5 @@ python-dotenv
 laya
 matplotlib
 Faker
+scikit-learn
+sentence-transformers
