@@ -61,6 +61,7 @@ def run_genai_agent(user_query: str) -> Tuple[str, Dict[str, Any]]:
     ]
 
     selected_tool_name = "none"
+    tool_output = None
     tokens_generated = 0
     start_time = time.perf_counter()
 
@@ -82,6 +83,7 @@ def run_genai_agent(user_query: str) -> Tuple[str, Dict[str, Any]]:
             result = tool_fn.invoke(tool_args)
         else:
             result = f"Tool {selected_tool_name} not found."
+        tool_output = result
 
         messages.append(ToolMessage(content=str(result), tool_call_id=tool_call["id"]))
 
@@ -100,7 +102,8 @@ def run_genai_agent(user_query: str) -> Tuple[str, Dict[str, Any]]:
         "tool_selected": selected_tool_name,
         "latency_ms": round(elapsed_ms, 2),
         "tokens_generated": tokens_generated,
-        "answer": plain_text_answer
+        "answer": plain_text_answer,
+        "tool_output": tool_output
     }
 
     return plain_text_answer, telemetry
