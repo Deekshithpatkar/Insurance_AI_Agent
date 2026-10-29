@@ -1,0 +1,269 @@
+{
+  "test_file": "data\\eval_test.jsonl",
+  "test_queries": 48,
+  "repeats_per_query": 3,
+  "warmup_runs_discarded_per_router": 48,
+  "measured_runs_per_query": 2,
+  "routers": {
+    "qwen": {
+      "accuracy": 0.9791666666666666,
+      "macro_f1": 0.9791304347826086,
+      "confusion_matrix_labels": [
+        "check_patient_policy",
+        "calculate_out_of_pocket",
+        "request_prior_authorization",
+        "escalate_to_human_specialist",
+        "no_tool"
+      ],
+      "confusion_matrix": [
+        [
+          24,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          24,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          22,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          24,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "category_accuracy": {
+        "ambiguous": 1.0,
+        "clean": 1.0,
+        "multi_intent": 0.9,
+        "out_of_scope": 1.0,
+        "paraphrase": 1.0,
+        "typo": 1.0
+      },
+      "latency_ms": {
+        "p50": 5817.43,
+        "p95": 8678.859999999999
+      },
+      "output_tokens": {
+        "total": 3746,
+        "average_per_prediction": 39.020833333333336
+      },
+      "measured_predictions": 96
+    },
+    "laya": {
+      "accuracy": 0.8958333333333334,
+      "macro_f1": 0.8907692307692308,
+      "confusion_matrix_labels": [
+        "check_patient_policy",
+        "calculate_out_of_pocket",
+        "request_prior_authorization",
+        "escalate_to_human_specialist",
+        "no_tool"
+      ],
+      "confusion_matrix": [
+        [
+          24,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          24,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          22,
+          0,
+          0
+        ],
+        [
+          2,
+          2,
+          4,
+          16,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "category_accuracy": {
+        "ambiguous": 1.0,
+        "clean": 1.0,
+        "multi_intent": 0.9,
+        "out_of_scope": 0.625,
+        "paraphrase": 0.8,
+        "typo": 1.0
+      },
+      "latency_ms": {
+        "p50": 1189.4,
+        "p95": 1640.105
+      },
+      "output_tokens": {
+        "total": 0,
+        "average_per_prediction": 0.0
+      },
+      "measured_predictions": 96
+    },
+    "embedding": {
+      "accuracy": 0.8125,
+      "macro_f1": 0.8116258741258742,
+      "confusion_matrix_labels": [
+        "check_patient_policy",
+        "calculate_out_of_pocket",
+        "request_prior_authorization",
+        "escalate_to_human_specialist",
+        "no_tool"
+      ],
+      "confusion_matrix": [
+        [
+          20,
+          0,
+          2,
+          2,
+          0
+        ],
+        [
+          2,
+          22,
+          0,
+          0,
+          0
+        ],
+        [
+          4,
+          2,
+          16,
+          2,
+          0
+        ],
+        [
+          2,
+          0,
+          2,
+          20,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "category_accuracy": {
+        "ambiguous": 0.8,
+        "clean": 1.0,
+        "multi_intent": 0.5,
+        "out_of_scope": 0.75,
+        "paraphrase": 1.0,
+        "typo": 1.0
+      },
+      "latency_ms": {
+        "p50": 18.295,
+        "p95": 24.337500000000002
+      },
+      "output_tokens": {
+        "total": 0,
+        "average_per_prediction": 0.0
+      },
+      "measured_predictions": 96
+    },
+    "hybrid": {
+      "accuracy": 0.9791666666666666,
+      "macro_f1": 0.9791304347826086,
+      "confusion_matrix_labels": [
+        "check_patient_policy",
+        "calculate_out_of_pocket",
+        "request_prior_authorization",
+        "escalate_to_human_specialist",
+        "no_tool"
+      ],
+      "confusion_matrix": [
+        [
+          24,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          24,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          22,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          24,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "category_accuracy": {
+        "ambiguous": 1.0,
+        "clean": 1.0,
+        "multi_intent": 0.9,
+        "out_of_scope": 1.0,
+        "paraphrase": 1.0,
+        "typo": 1.0
+      },
+      "latency_ms": {
+        "p50": 3170.995,
+        "p95": 8070.0275
+      },
+      "output_tokens": {
+        "total": 1838,
+        "average_per_prediction": 19.145833333333332
+      },
+      "measured_predictions": 96
+    }
+  }
+}

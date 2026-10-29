@@ -1,0 +1,385 @@
+router,id,query,category,expected_tool,predicted_tool,confidence,latency_ms,output_tokens,repeat
+qwen,33,"Check coverage for Derrick Johnson's Knee replacement, then tell me the diagnosis on file.",multi_intent,check_patient_policy,check_patient_policy,0.0,3375.89,24,2
+qwen,33,"Check coverage for Derrick Johnson's Knee replacement, then tell me the diagnosis on file.",multi_intent,check_patient_policy,check_patient_policy,0.0,3386.82,24,3
+qwen,117,Get advance approval for Shannon Ho's Mental health counseling and verify the policy rule.,multi_intent,request_prior_authorization,check_patient_policy,0.0,6200.36,44,2
+qwen,117,Get advance approval for Shannon Ho's Mental health counseling and verify the policy rule.,multi_intent,request_prior_authorization,check_patient_policy,0.0,6239.84,44,3
+qwen,97,Submmit prior auth for Heather Moss's X-ray.,typo,request_prior_authorization,request_prior_authorization,0.0,4654.75,33,2
+qwen,97,Submmit prior auth for Heather Moss's X-ray.,typo,request_prior_authorization,request_prior_authorization,0.0,4547.74,33,3
+qwen,125,Arrange a call from an insurance specialist for Rebecca Fowler's dispute.,paraphrase,escalate_to_human_specialist,escalate_to_human_specialist,0.0,5048.2,35,2
+qwen,125,Arrange a call from an insurance specialist for Rebecca Fowler's dispute.,paraphrase,escalate_to_human_specialist,escalate_to_human_specialist,0.0,5119.15,35,3
+qwen,80,"Please find the out-of-pocket amount for Mike Peters and confirm the $8,385.43 limit.",multi_intent,calculate_out_of_pocket,calculate_out_of_pocket,0.0,6747.94,44,2
+qwen,80,"Please find the out-of-pocket amount for Mike Peters and confirm the $8,385.43 limit.",multi_intent,calculate_out_of_pocket,calculate_out_of_pocket,0.0,6320.52,44,3
+qwen,58,"How much does Jordan Murphy owe after $47,855.42 coverge on a $30,749.31 bill?",typo,calculate_out_of_pocket,calculate_out_of_pocket,0.0,6756.39,46,2
+qwen,58,"How much does Jordan Murphy owe after $47,855.42 coverge on a $30,749.31 bill?",typo,calculate_out_of_pocket,calculate_out_of_pocket,0.0,6589.62,46,3
+qwen,152,Please ask a human to help Evelyn Meadows schedule a routine checkup.,out_of_scope,escalate_to_human_specialist,escalate_to_human_specialist,0.0,5721.36,40,2
+qwen,152,Please ask a human to help Evelyn Meadows schedule a routine checkup.,out_of_scope,escalate_to_human_specialist,escalate_to_human_specialist,0.0,5768.28,40,3
+qwen,106,Please start the approval process for David Fisher.,ambiguous,request_prior_authorization,request_prior_authorization,0.0,5147.79,36,2
+qwen,106,Please start the approval process for David Fisher.,ambiguous,request_prior_authorization,request_prior_authorization,0.0,4973.8,36,3
+qwen,20,Does Kevin Jimenez have benifits for Fertility treatment?,typo,check_patient_policy,check_patient_policy,0.0,6271.52,44,2
+qwen,20,Does Kevin Jimenez have benifits for Fertility treatment?,typo,check_patient_policy,check_patient_policy,0.0,6234.32,44,3
+qwen,77,"Calculate the balance for Sarah Santiago at $7,795.98 with $4,576.68 insurance and state the difference.",multi_intent,calculate_out_of_pocket,calculate_out_of_pocket,0.0,6412.7,44,2
+qwen,77,"Calculate the balance for Sarah Santiago at $7,795.98 with $4,576.68 insurance and state the difference.",multi_intent,calculate_out_of_pocket,calculate_out_of_pocket,0.0,6343.46,44,3
+qwen,132,Please have a specialist review what happened to Nicholas Cook.,ambiguous,escalate_to_human_specialist,escalate_to_human_specialist,0.0,5866.43,41,2
+qwen,132,Please have a specialist review what happened to Nicholas Cook.,ambiguous,escalate_to_human_specialist,escalate_to_human_specialist,0.0,6039.52,41,3
+qwen,69,What would Jean Coleman's out-of-pocket amount be?,ambiguous,calculate_out_of_pocket,calculate_out_of_pocket,0.0,5383.44,38,2
+qwen,69,What would Jean Coleman's out-of-pocket amount be?,ambiguous,calculate_out_of_pocket,calculate_out_of_pocket,0.0,5818.97,38,3
+qwen,66,What is the remaining balance for Michael Rich?,ambiguous,calculate_out_of_pocket,calculate_out_of_pocket,0.0,5426.59,38,2
+qwen,66,What is the remaining balance for Michael Rich?,ambiguous,calculate_out_of_pocket,calculate_out_of_pocket,0.0,5576.86,38,3
+qwen,90,Arrange the required pre-clearance for Genetic testing for Bryce Jennings.,paraphrase,request_prior_authorization,request_prior_authorization,0.0,5047.94,35,2
+qwen,90,Arrange the required pre-clearance for Genetic testing for Bryce Jennings.,paraphrase,request_prior_authorization,request_prior_authorization,0.0,4992.6,35,3
+qwen,32,"Look up the plan limit for Stephen Hamilton, please.",ambiguous,check_patient_policy,check_patient_policy,0.0,3348.18,23,2
+qwen,32,"Look up the plan limit for Stephen Hamilton, please.",ambiguous,check_patient_policy,check_patient_policy,0.0,3301.22,23,3
+qwen,40,"First check whether Kaylee Chavez's Acupuncture is covered, then summarize the policy rule.",multi_intent,check_patient_policy,check_patient_policy,0.0,6317.13,42,2
+qwen,40,"First check whether Kaylee Chavez's Acupuncture is covered, then summarize the policy rule.",multi_intent,check_patient_policy,check_patient_policy,0.0,6165.59,42,3
+qwen,113,"Request prior authorization for Tonya Palmer's Acupuncture, then check its coverage limit.",multi_intent,request_prior_authorization,request_prior_authorization,0.0,8614.96,57,2
+qwen,113,"Request prior authorization for Tonya Palmer's Acupuncture, then check its coverage limit.",multi_intent,request_prior_authorization,request_prior_authorization,0.0,8870.56,57,3
+qwen,149,This is outside the available tools: Angela Maxwell wants help changing their mailing address.,out_of_scope,escalate_to_human_specialist,escalate_to_human_specialist,0.0,6125.33,41,2
+qwen,149,This is outside the available tools: Angela Maxwell wants help changing their mailing address.,out_of_scope,escalate_to_human_specialist,escalate_to_human_specialist,0.0,6144.88,41,3
+qwen,46,"What balance does Marc Walton owe if the treatment is $7,308.14 and insurance covers up to $4,576.68?",clean,calculate_out_of_pocket,calculate_out_of_pocket,0.0,6768.2,44,2
+qwen,46,"What balance does Marc Walton owe if the treatment is $7,308.14 and insurance covers up to $4,576.68?",clean,calculate_out_of_pocket,calculate_out_of_pocket,0.0,6628.56,44,3
+qwen,100,Can you file an authrization for Randall Flores to get Acupuncture?,typo,request_prior_authorization,request_prior_authorization,0.0,4935.91,33,2
+qwen,100,Can you file an authrization for Randall Flores to get Acupuncture?,typo,request_prior_authorization,request_prior_authorization,0.0,5039.15,33,3
+qwen,64,"Figure Amber Gardner's balence after a $15,293.79 allowance against $14,592.93.",typo,calculate_out_of_pocket,calculate_out_of_pocket,0.0,6937.95,46,2
+qwen,64,"Figure Amber Gardner's balence after a $15,293.79 allowance against $14,592.93.",typo,calculate_out_of_pocket,calculate_out_of_pocket,0.0,6907.56,46,3
+qwen,94,Put in the pre-certification request for Joel Werner's Prescription medication.,paraphrase,request_prior_authorization,request_prior_authorization,0.0,5234.39,34,2
+qwen,94,Put in the pre-certification request for Joel Werner's Prescription medication.,paraphrase,request_prior_authorization,request_prior_authorization,0.0,5203.48,34,3
+qwen,8,Please check the policy rule for Alex Hawkins's Genetic testing.,clean,check_patient_policy,check_patient_policy,0.0,5586.15,37,2
+qwen,8,Please check the policy rule for Alex Hawkins's Genetic testing.,clean,check_patient_policy,check_patient_policy,0.0,5562.25,37,3
+qwen,153,This request is outside claim support. Connect Shannon Powell with someone about a bill payment plan.,out_of_scope,escalate_to_human_specialist,escalate_to_human_specialist,0.0,5881.56,39,2
+qwen,153,This request is outside claim support. Connect Shannon Powell with someone about a bill payment plan.,out_of_scope,escalate_to_human_specialist,escalate_to_human_specialist,0.0,5827.24,39,3
+qwen,42,"Calculate what Austin Adams owes on a $54,501.92 bill with $56,069.54 of coverage.",clean,calculate_out_of_pocket,calculate_out_of_pocket,0.0,7065.6,46,2
+qwen,42,"Calculate what Austin Adams owes on a $54,501.92 bill with $56,069.54 of coverage.",clean,calculate_out_of_pocket,calculate_out_of_pocket,0.0,6925.97,46,3
+qwen,120,Have Curtis Howard's Hearing aids reviewed in advance and report the coverage limit.,multi_intent,request_prior_authorization,request_prior_authorization,0.0,5396.68,35,2
+qwen,120,Have Curtis Howard's Hearing aids reviewed in advance and report the coverage limit.,multi_intent,request_prior_authorization,request_prior_authorization,0.0,5186.06,35,3
+qwen,27,Can you look up whether this is included for Julie Olson?,ambiguous,check_patient_policy,check_patient_policy,0.0,3694.73,24,2
+qwen,27,Can you look up whether this is included for Julie Olson?,ambiguous,check_patient_policy,check_patient_policy,0.0,3907.01,24,3
+qwen,124,Have a person look into Robin Conley's unresolved claim issue.,paraphrase,escalate_to_human_specialist,escalate_to_human_specialist,0.0,5569.44,37,2
+qwen,124,Have a person look into Robin Conley's unresolved claim issue.,paraphrase,escalate_to_human_specialist,escalate_to_human_specialist,0.0,6070.64,37,3
+qwen,29,Please check the insurance details for John Noble.,ambiguous,check_patient_policy,check_patient_policy,0.0,3702.97,23,2
+qwen,29,Please check the insurance details for John Noble.,ambiguous,check_patient_policy,check_patient_policy,0.0,3680.64,23,3
+qwen,116,"File a prior auth for Julie Cordova's Outpatient surgery; if it is disputed, send it to a specialist.",multi_intent,request_prior_authorization,request_prior_authorization,0.0,12508.02,81,2
+qwen,116,"File a prior auth for Julie Cordova's Outpatient surgery; if it is disputed, send it to a specialist.",multi_intent,request_prior_authorization,request_prior_authorization,0.0,12179.72,81,3
+qwen,87,Open a prior approval request for Dean Brown's Ambulance transport.,clean,request_prior_authorization,request_prior_authorization,0.0,5148.61,33,2
+qwen,87,Open a prior approval request for Dean Brown's Ambulance transport.,clean,request_prior_authorization,request_prior_authorization,0.0,4938.9,33,3
+qwen,15,Is there a benefit cap for Zoe Palmer when it comes to Knee replacement?,paraphrase,check_patient_policy,check_patient_policy,0.0,4887.03,33,2
+qwen,15,Is there a benefit cap for Zoe Palmer when it comes to Knee replacement?,paraphrase,check_patient_policy,check_patient_policy,0.0,4974.32,33,3
+qwen,38,"Check the policy for Sandra Stewart's Hearing aids, and confirm the patient's age.",multi_intent,check_patient_policy,check_patient_policy,0.0,3633.82,24,2
+qwen,38,"Check the policy for Sandra Stewart's Hearing aids, and confirm the patient's age.",multi_intent,check_patient_policy,check_patient_policy,0.0,3682.92,24,3
+qwen,157,Please route Patrick Douglas's request to update a dependent to a live support representative.,out_of_scope,escalate_to_human_specialist,escalate_to_human_specialist,0.0,5764.07,38,2
+qwen,157,Please route Patrick Douglas's request to update a dependent to a live support representative.,out_of_scope,escalate_to_human_specialist,escalate_to_human_specialist,0.0,5829.63,38,3
+qwen,70,Can you work out the uncovered portion of Blake Torres's care?,ambiguous,calculate_out_of_pocket,calculate_out_of_pocket,0.0,5971.7,38,2
+qwen,70,Can you work out the uncovered portion of Blake Torres's care?,ambiguous,calculate_out_of_pocket,calculate_out_of_pocket,0.0,5977.51,38,3
+qwen,138,"A human should handle Stephanie Werner's request to change a pharmacy, which this tool cannot do.",out_of_scope,escalate_to_human_specialist,escalate_to_human_specialist,0.0,5815.89,38,2
+qwen,138,"A human should handle Stephanie Werner's request to change a pharmacy, which this tool cannot do.",out_of_scope,escalate_to_human_specialist,escalate_to_human_specialist,0.0,5944.26,38,3
+qwen,151,Have a live representative discuss plan enrollment with Courtney Nguyen; it is not a policy lookup.,out_of_scope,escalate_to_human_specialist,escalate_to_human_specialist,0.0,5722.65,36,2
+qwen,151,Have a live representative discuss plan enrollment with Courtney Nguyen; it is not a policy lookup.,out_of_scope,escalate_to_human_specialist,escalate_to_human_specialist,0.0,5602.52,36,3
+qwen,148,Please send Melinda Bryant's request for a specialist recommendation to a human.,out_of_scope,escalate_to_human_specialist,escalate_to_human_specialist,0.0,5866.38,38,2
+qwen,148,Please send Melinda Bryant's request for a specialist recommendation to a human.,out_of_scope,escalate_to_human_specialist,escalate_to_human_specialist,0.0,5961.13,38,3
+qwen,68,How much is left after insurance for Tina Martin?,ambiguous,calculate_out_of_pocket,calculate_out_of_pocket,0.0,6424.11,38,2
+qwen,68,How much is left after insurance for Tina Martin?,ambiguous,calculate_out_of_pocket,calculate_out_of_pocket,0.0,5950.68,38,3
+qwen,7,Tell me if Alex Burke has coverage for Experimental gene therapy and the maximum amount.,clean,check_patient_policy,check_patient_policy,0.0,5570.69,37,2
+qwen,7,Tell me if Alex Burke has coverage for Experimental gene therapy and the maximum amount.,clean,check_patient_policy,check_patient_policy,0.0,5825.46,37,3
+qwen,59,"Work out Gabriel Martinez's remaing balance for $140,948.49 cost and $124,359.29 insurence.",typo,calculate_out_of_pocket,calculate_out_of_pocket,0.0,7234.98,48,2
+qwen,59,"Work out Gabriel Martinez's remaing balance for $140,948.49 cost and $124,359.29 insurence.",typo,calculate_out_of_pocket,calculate_out_of_pocket,0.0,7252.01,48,3
+qwen,115,"Start authorization for Organ transplant for Matthew Smith, and calculate the patient cost.",multi_intent,request_prior_authorization,request_prior_authorization,0.0,11361.76,74,2
+qwen,115,"Start authorization for Organ transplant for Matthew Smith, and calculate the patient cost.",multi_intent,request_prior_authorization,request_prior_authorization,0.0,11354.7,74,3
+qwen,127,Escalate Patrick Lutz's claim dispuit to a human specialist.,typo,escalate_to_human_specialist,escalate_to_human_specialist,0.0,5462.63,36,2
+qwen,127,Escalate Patrick Lutz's claim dispuit to a human specialist.,typo,escalate_to_human_specialist,escalate_to_human_specialist,0.0,5589.43,36,3
+qwen,111,Can you send Ernest Raymond's request to insurance for review?,ambiguous,request_prior_authorization,request_prior_authorization,0.0,5501.68,37,2
+qwen,111,Can you send Ernest Raymond's request to insurance for review?,ambiguous,request_prior_authorization,request_prior_authorization,0.0,5600.57,37,3
+qwen,137,Please send Karen Henderson to a live representative for a legal question about the accident.,out_of_scope,escalate_to_human_specialist,escalate_to_human_specialist,0.0,5866.04,37,2
+qwen,137,Please send Karen Henderson to a live representative for a legal question about the accident.,out_of_scope,escalate_to_human_specialist,escalate_to_human_specialist,0.0,5726.44,37,3
+qwen,21,Please verfy the coverage limit for Jonathan Christensen's Stem cell therapy.,typo,check_patient_policy,check_patient_policy,0.0,6358.05,42,2
+qwen,21,Please verfy the coverage limit for Jonathan Christensen's Stem cell therapy.,typo,check_patient_policy,check_patient_policy,0.0,6413.88,42,3
+qwen,60,"What is the out-of-poket amount for Laura Ballard: $15,185.72 cost, $0.00 limit?",typo,calculate_out_of_pocket,calculate_out_of_pocket,0.0,5948.17,39,2
+qwen,60,"What is the out-of-poket amount for Laura Ballard: $15,185.72 cost, $0.00 limit?",typo,calculate_out_of_pocket,calculate_out_of_pocket,0.0,6082.25,39,3
+qwen,1,"Is Alex Wilson's Inpatient rehabilitation covered, and what is the policy limit?",clean,check_patient_policy,check_patient_policy,0.0,3435.74,23,2
+qwen,1,"Is Alex Wilson's Inpatient rehabilitation covered, and what is the policy limit?",clean,check_patient_policy,check_patient_policy,0.0,3486.84,23,3
+laya,33,"Check coverage for Derrick Johnson's Knee replacement, then tell me the diagnosis on file.",multi_intent,check_patient_policy,check_patient_policy,0.5636,1163.95,0,2
+laya,33,"Check coverage for Derrick Johnson's Knee replacement, then tell me the diagnosis on file.",multi_intent,check_patient_policy,check_patient_policy,0.5636,1144.17,0,3
+laya,117,Get advance approval for Shannon Ho's Mental health counseling and verify the policy rule.,multi_intent,request_prior_authorization,request_prior_authorization,0.2014,1139.02,0,2
+laya,117,Get advance approval for Shannon Ho's Mental health counseling and verify the policy rule.,multi_intent,request_prior_authorization,request_prior_authorization,0.2014,1122.3,0,3
+laya,97,Submmit prior auth for Heather Moss's X-ray.,typo,request_prior_authorization,request_prior_authorization,0.5673,1084.49,0,2
+laya,97,Submmit prior auth for Heather Moss's X-ray.,typo,request_prior_authorization,request_prior_authorization,0.5673,1097.63,0,3
+laya,125,Arrange a call from an insurance specialist for Rebecca Fowler's dispute.,paraphrase,escalate_to_human_specialist,escalate_to_human_specialist,0.0068,1101.8,0,2
+laya,125,Arrange a call from an insurance specialist for Rebecca Fowler's dispute.,paraphrase,escalate_to_human_specialist,escalate_to_human_specialist,0.0068,1109.85,0,3
+laya,80,"Please find the out-of-pocket amount for Mike Peters and confirm the $8,385.43 limit.",multi_intent,calculate_out_of_pocket,calculate_out_of_pocket,0.8767,1172.09,0,2
+laya,80,"Please find the out-of-pocket amount for Mike Peters and confirm the $8,385.43 limit.",multi_intent,calculate_out_of_pocket,calculate_out_of_pocket,0.8767,1181.75,0,3
+laya,58,"How much does Jordan Murphy owe after $47,855.42 coverge on a $30,749.31 bill?",typo,calculate_out_of_pocket,calculate_out_of_pocket,0.8315,1197.09,0,2
+laya,58,"How much does Jordan Murphy owe after $47,855.42 coverge on a $30,749.31 bill?",typo,calculate_out_of_pocket,calculate_out_of_pocket,0.8315,1272.93,0,3
+laya,152,Please ask a human to help Evelyn Meadows schedule a routine checkup.,out_of_scope,escalate_to_human_specialist,escalate_to_human_specialist,0.0075,1653.62,0,2
+laya,152,Please ask a human to help Evelyn Meadows schedule a routine checkup.,out_of_scope,escalate_to_human_specialist,escalate_to_human_specialist,0.0075,1321.61,0,3
+laya,106,Please start the approval process for David Fisher.,ambiguous,request_prior_authorization,request_prior_authorization,0.1172,1240.2,0,2
+laya,106,Please start the approval process for David Fisher.,ambiguous,request_prior_authorization,request_prior_authorization,0.1172,1197.61,0,3
+laya,20,Does Kevin Jimenez have benifits for Fertility treatment?,typo,check_patient_policy,check_patient_policy,0.084,1166.68,0,2
+laya,20,Does Kevin Jimenez have benifits for Fertility treatment?,typo,check_patient_policy,check_patient_policy,0.084,1169.5,0,3
+laya,77,"Calculate the balance for Sarah Santiago at $7,795.98 with $4,576.68 insurance and state the difference.",multi_intent,calculate_out_of_pocket,calculate_out_of_pocket,0.8933,1301.61,0,2
+laya,77,"Calculate the balance for Sarah Santiago at $7,795.98 with $4,576.68 insurance and state the difference.",multi_intent,calculate_out_of_pocket,calculate_out_of_pocket,0.8933,1413.71,0,3
+laya,132,Please have a specialist review what happened to Nicholas Cook.,ambiguous,escalate_to_human_specialist,escalate_to_human_specialist,0.1086,1188.5,0,2
+laya,132,Please have a specialist review what happened to Nicholas Cook.,ambiguous,escalate_to_human_specialist,escalate_to_human_specialist,0.1086,1135.87,0,3
+laya,69,What would Jean Coleman's out-of-pocket amount be?,ambiguous,calculate_out_of_pocket,calculate_out_of_pocket,0.8823,1169.32,0,2
+laya,69,What would Jean Coleman's out-of-pocket amount be?,ambiguous,calculate_out_of_pocket,calculate_out_of_pocket,0.8823,1181.56,0,3
+laya,66,What is the remaining balance for Michael Rich?,ambiguous,calculate_out_of_pocket,calculate_out_of_pocket,0.2907,1134.37,0,2
+laya,66,What is the remaining balance for Michael Rich?,ambiguous,calculate_out_of_pocket,calculate_out_of_pocket,0.2907,1148.62,0,3
+laya,90,Arrange the required pre-clearance for Genetic testing for Bryce Jennings.,paraphrase,request_prior_authorization,request_prior_authorization,0.1287,1144.42,0,2
+laya,90,Arrange the required pre-clearance for Genetic testing for Bryce Jennings.,paraphrase,request_prior_authorization,request_prior_authorization,0.1287,1136.73,0,3
+laya,32,"Look up the plan limit for Stephen Hamilton, please.",ambiguous,check_patient_policy,check_patient_policy,0.1459,1105.86,0,2
+laya,32,"Look up the plan limit for Stephen Hamilton, please.",ambiguous,check_patient_policy,check_patient_policy,0.1459,1092.19,0,3
+laya,40,"First check whether Kaylee Chavez's Acupuncture is covered, then summarize the policy rule.",multi_intent,check_patient_policy,check_patient_policy,0.8346,1191.94,0,2
+laya,40,"First check whether Kaylee Chavez's Acupuncture is covered, then summarize the policy rule.",multi_intent,check_patient_policy,check_patient_policy,0.8346,1635.6,0,3
+laya,113,"Request prior authorization for Tonya Palmer's Acupuncture, then check its coverage limit.",multi_intent,request_prior_authorization,request_prior_authorization,0.8993,1594.36,0,2
+laya,113,"Request prior authorization for Tonya Palmer's Acupuncture, then check its coverage limit.",multi_intent,request_prior_authorization,request_prior_authorization,0.8993,1270.67,0,3
+laya,149,This is outside the available tools: Angela Maxwell wants help changing their mailing address.,out_of_scope,escalate_to_human_specialist,request_prior_authorization,0.0562,1190.3,0,2
+laya,149,This is outside the available tools: Angela Maxwell wants help changing their mailing address.,out_of_scope,escalate_to_human_specialist,request_prior_authorization,0.0562,1281.34,0,3
+laya,46,"What balance does Marc Walton owe if the treatment is $7,308.14 and insurance covers up to $4,576.68?",clean,calculate_out_of_pocket,calculate_out_of_pocket,0.5486,1364.9,0,2
+laya,46,"What balance does Marc Walton owe if the treatment is $7,308.14 and insurance covers up to $4,576.68?",clean,calculate_out_of_pocket,calculate_out_of_pocket,0.5486,1283.69,0,3
+laya,100,Can you file an authrization for Randall Flores to get Acupuncture?,typo,request_prior_authorization,request_prior_authorization,0.8963,1372.17,0,2
+laya,100,Can you file an authrization for Randall Flores to get Acupuncture?,typo,request_prior_authorization,request_prior_authorization,0.8963,1534.24,0,3
+laya,64,"Figure Amber Gardner's balence after a $15,293.79 allowance against $14,592.93.",typo,calculate_out_of_pocket,calculate_out_of_pocket,0.9354,575.99,0,2
+laya,64,"Figure Amber Gardner's balence after a $15,293.79 allowance against $14,592.93.",typo,calculate_out_of_pocket,calculate_out_of_pocket,0.9354,542.05,0,3
+laya,94,Put in the pre-certification request for Joel Werner's Prescription medication.,paraphrase,request_prior_authorization,request_prior_authorization,0.2824,2402.67,0,2
+laya,94,Put in the pre-certification request for Joel Werner's Prescription medication.,paraphrase,request_prior_authorization,request_prior_authorization,0.2824,1385.57,0,3
+laya,8,Please check the policy rule for Alex Hawkins's Genetic testing.,clean,check_patient_policy,check_patient_policy,0.8834,1140.21,0,2
+laya,8,Please check the policy rule for Alex Hawkins's Genetic testing.,clean,check_patient_policy,check_patient_policy,0.8834,1122.01,0,3
+laya,153,This request is outside claim support. Connect Shannon Powell with someone about a bill payment plan.,out_of_scope,escalate_to_human_specialist,request_prior_authorization,0.0322,1736.92,0,2
+laya,153,This request is outside claim support. Connect Shannon Powell with someone about a bill payment plan.,out_of_scope,escalate_to_human_specialist,request_prior_authorization,0.0322,1594.78,0,3
+laya,42,"Calculate what Austin Adams owes on a $54,501.92 bill with $56,069.54 of coverage.",clean,calculate_out_of_pocket,calculate_out_of_pocket,0.9181,1247.88,0,2
+laya,42,"Calculate what Austin Adams owes on a $54,501.92 bill with $56,069.54 of coverage.",clean,calculate_out_of_pocket,calculate_out_of_pocket,0.9181,1222.6,0,3
+laya,120,Have Curtis Howard's Hearing aids reviewed in advance and report the coverage limit.,multi_intent,request_prior_authorization,check_patient_policy,0.0493,1217.46,0,2
+laya,120,Have Curtis Howard's Hearing aids reviewed in advance and report the coverage limit.,multi_intent,request_prior_authorization,check_patient_policy,0.0493,1277.46,0,3
+laya,27,Can you look up whether this is included for Julie Olson?,ambiguous,check_patient_policy,check_patient_policy,0.1224,1273.17,0,2
+laya,27,Can you look up whether this is included for Julie Olson?,ambiguous,check_patient_policy,check_patient_policy,0.1224,1114.62,0,3
+laya,124,Have a person look into Robin Conley's unresolved claim issue.,paraphrase,escalate_to_human_specialist,calculate_out_of_pocket,0.0075,1098.56,0,2
+laya,124,Have a person look into Robin Conley's unresolved claim issue.,paraphrase,escalate_to_human_specialist,calculate_out_of_pocket,0.0075,1122.18,0,3
+laya,29,Please check the insurance details for John Noble.,ambiguous,check_patient_policy,check_patient_policy,0.3379,2047.12,0,2
+laya,29,Please check the insurance details for John Noble.,ambiguous,check_patient_policy,check_patient_policy,0.3379,2026.31,0,3
+laya,116,"File a prior auth for Julie Cordova's Outpatient surgery; if it is disputed, send it to a specialist.",multi_intent,request_prior_authorization,request_prior_authorization,0.7821,1184.67,0,2
+laya,116,"File a prior auth for Julie Cordova's Outpatient surgery; if it is disputed, send it to a specialist.",multi_intent,request_prior_authorization,request_prior_authorization,0.7821,1190.32,0,3
+laya,87,Open a prior approval request for Dean Brown's Ambulance transport.,clean,request_prior_authorization,request_prior_authorization,0.6592,1113.37,0,2
+laya,87,Open a prior approval request for Dean Brown's Ambulance transport.,clean,request_prior_authorization,request_prior_authorization,0.6592,1393.49,0,3
+laya,15,Is there a benefit cap for Zoe Palmer when it comes to Knee replacement?,paraphrase,check_patient_policy,check_patient_policy,0.1288,1174.75,0,2
+laya,15,Is there a benefit cap for Zoe Palmer when it comes to Knee replacement?,paraphrase,check_patient_policy,check_patient_policy,0.1288,1218.23,0,3
+laya,38,"Check the policy for Sandra Stewart's Hearing aids, and confirm the patient's age.",multi_intent,check_patient_policy,check_patient_policy,0.9389,1180.75,0,2
+laya,38,"Check the policy for Sandra Stewart's Hearing aids, and confirm the patient's age.",multi_intent,check_patient_policy,check_patient_policy,0.9389,1193.67,0,3
+laya,157,Please route Patrick Douglas's request to update a dependent to a live support representative.,out_of_scope,escalate_to_human_specialist,escalate_to_human_specialist,0.0245,1329.28,0,2
+laya,157,Please route Patrick Douglas's request to update a dependent to a live support representative.,out_of_scope,escalate_to_human_specialist,escalate_to_human_specialist,0.0245,1316.63,0,3
+laya,70,Can you work out the uncovered portion of Blake Torres's care?,ambiguous,calculate_out_of_pocket,calculate_out_of_pocket,0.3242,1147.86,0,2
+laya,70,Can you work out the uncovered portion of Blake Torres's care?,ambiguous,calculate_out_of_pocket,calculate_out_of_pocket,0.3242,1245.2,0,3
+laya,138,"A human should handle Stephanie Werner's request to change a pharmacy, which this tool cannot do.",out_of_scope,escalate_to_human_specialist,escalate_to_human_specialist,0.785,1278.51,0,2
+laya,138,"A human should handle Stephanie Werner's request to change a pharmacy, which this tool cannot do.",out_of_scope,escalate_to_human_specialist,escalate_to_human_specialist,0.785,1284.77,0,3
+laya,151,Have a live representative discuss plan enrollment with Courtney Nguyen; it is not a policy lookup.,out_of_scope,escalate_to_human_specialist,check_patient_policy,0.0249,1175.58,0,2
+laya,151,Have a live representative discuss plan enrollment with Courtney Nguyen; it is not a policy lookup.,out_of_scope,escalate_to_human_specialist,check_patient_policy,0.0249,1339.82,0,3
+laya,148,Please send Melinda Bryant's request for a specialist recommendation to a human.,out_of_scope,escalate_to_human_specialist,escalate_to_human_specialist,0.1753,1184.43,0,2
+laya,148,Please send Melinda Bryant's request for a specialist recommendation to a human.,out_of_scope,escalate_to_human_specialist,escalate_to_human_specialist,0.1753,1183.35,0,3
+laya,68,How much is left after insurance for Tina Martin?,ambiguous,calculate_out_of_pocket,calculate_out_of_pocket,0.261,1110.01,0,2
+laya,68,How much is left after insurance for Tina Martin?,ambiguous,calculate_out_of_pocket,calculate_out_of_pocket,0.261,1108.47,0,3
+laya,7,Tell me if Alex Burke has coverage for Experimental gene therapy and the maximum amount.,clean,check_patient_policy,check_patient_policy,0.3436,1151.06,0,2
+laya,7,Tell me if Alex Burke has coverage for Experimental gene therapy and the maximum amount.,clean,check_patient_policy,check_patient_policy,0.3436,1165.47,0,3
+laya,59,"Work out Gabriel Martinez's remaing balance for $140,948.49 cost and $124,359.29 insurence.",typo,calculate_out_of_pocket,calculate_out_of_pocket,0.7491,1182.2,0,2
+laya,59,"Work out Gabriel Martinez's remaing balance for $140,948.49 cost and $124,359.29 insurence.",typo,calculate_out_of_pocket,calculate_out_of_pocket,0.7491,1223.23,0,3
+laya,115,"Start authorization for Organ transplant for Matthew Smith, and calculate the patient cost.",multi_intent,request_prior_authorization,request_prior_authorization,0.2366,1228.08,0,2
+laya,115,"Start authorization for Organ transplant for Matthew Smith, and calculate the patient cost.",multi_intent,request_prior_authorization,request_prior_authorization,0.2366,1572.05,0,3
+laya,127,Escalate Patrick Lutz's claim dispuit to a human specialist.,typo,escalate_to_human_specialist,escalate_to_human_specialist,0.8088,1186.14,0,2
+laya,127,Escalate Patrick Lutz's claim dispuit to a human specialist.,typo,escalate_to_human_specialist,escalate_to_human_specialist,0.8088,1152.73,0,3
+laya,111,Can you send Ernest Raymond's request to insurance for review?,ambiguous,request_prior_authorization,request_prior_authorization,0.1113,1212.21,0,2
+laya,111,Can you send Ernest Raymond's request to insurance for review?,ambiguous,request_prior_authorization,request_prior_authorization,0.1113,1203.27,0,3
+laya,137,Please send Karen Henderson to a live representative for a legal question about the accident.,out_of_scope,escalate_to_human_specialist,escalate_to_human_specialist,0.0887,1161.37,0,2
+laya,137,Please send Karen Henderson to a live representative for a legal question about the accident.,out_of_scope,escalate_to_human_specialist,escalate_to_human_specialist,0.0887,1159.0,0,3
+laya,21,Please verfy the coverage limit for Jonathan Christensen's Stem cell therapy.,typo,check_patient_policy,check_patient_policy,0.0782,1197.38,0,2
+laya,21,Please verfy the coverage limit for Jonathan Christensen's Stem cell therapy.,typo,check_patient_policy,check_patient_policy,0.0782,1404.1,0,3
+laya,60,"What is the out-of-poket amount for Laura Ballard: $15,185.72 cost, $0.00 limit?",typo,calculate_out_of_pocket,calculate_out_of_pocket,0.7572,1262.34,0,2
+laya,60,"What is the out-of-poket amount for Laura Ballard: $15,185.72 cost, $0.00 limit?",typo,calculate_out_of_pocket,calculate_out_of_pocket,0.7572,1295.33,0,3
+laya,1,"Is Alex Wilson's Inpatient rehabilitation covered, and what is the policy limit?",clean,check_patient_policy,check_patient_policy,0.633,1158.94,0,2
+laya,1,"Is Alex Wilson's Inpatient rehabilitation covered, and what is the policy limit?",clean,check_patient_policy,check_patient_policy,0.633,1146.66,0,3
+embedding,33,"Check coverage for Derrick Johnson's Knee replacement, then tell me the diagnosis on file.",multi_intent,check_patient_policy,escalate_to_human_specialist,0.3192070722579956,17.36,0,2
+embedding,33,"Check coverage for Derrick Johnson's Knee replacement, then tell me the diagnosis on file.",multi_intent,check_patient_policy,escalate_to_human_specialist,0.3192070722579956,15.06,0,3
+embedding,117,Get advance approval for Shannon Ho's Mental health counseling and verify the policy rule.,multi_intent,request_prior_authorization,request_prior_authorization,0.49141791462898254,21.21,0,2
+embedding,117,Get advance approval for Shannon Ho's Mental health counseling and verify the policy rule.,multi_intent,request_prior_authorization,request_prior_authorization,0.49141791462898254,18.08,0,3
+embedding,97,Submmit prior auth for Heather Moss's X-ray.,typo,request_prior_authorization,request_prior_authorization,0.3951990604400635,18.32,0,2
+embedding,97,Submmit prior auth for Heather Moss's X-ray.,typo,request_prior_authorization,request_prior_authorization,0.3951990604400635,25.41,0,3
+embedding,125,Arrange a call from an insurance specialist for Rebecca Fowler's dispute.,paraphrase,escalate_to_human_specialist,escalate_to_human_specialist,0.603992223739624,15.53,0,2
+embedding,125,Arrange a call from an insurance specialist for Rebecca Fowler's dispute.,paraphrase,escalate_to_human_specialist,escalate_to_human_specialist,0.603992223739624,20.68,0,3
+embedding,80,"Please find the out-of-pocket amount for Mike Peters and confirm the $8,385.43 limit.",multi_intent,calculate_out_of_pocket,calculate_out_of_pocket,0.7520889639854431,16.43,0,2
+embedding,80,"Please find the out-of-pocket amount for Mike Peters and confirm the $8,385.43 limit.",multi_intent,calculate_out_of_pocket,calculate_out_of_pocket,0.7520889639854431,17.51,0,3
+embedding,58,"How much does Jordan Murphy owe after $47,855.42 coverge on a $30,749.31 bill?",typo,calculate_out_of_pocket,calculate_out_of_pocket,0.8492029309272766,18.48,0,2
+embedding,58,"How much does Jordan Murphy owe after $47,855.42 coverge on a $30,749.31 bill?",typo,calculate_out_of_pocket,calculate_out_of_pocket,0.8492029309272766,20.0,0,3
+embedding,152,Please ask a human to help Evelyn Meadows schedule a routine checkup.,out_of_scope,escalate_to_human_specialist,escalate_to_human_specialist,0.44876423478126526,20.9,0,2
+embedding,152,Please ask a human to help Evelyn Meadows schedule a routine checkup.,out_of_scope,escalate_to_human_specialist,escalate_to_human_specialist,0.44876423478126526,18.96,0,3
+embedding,106,Please start the approval process for David Fisher.,ambiguous,request_prior_authorization,request_prior_authorization,0.6228167414665222,16.06,0,2
+embedding,106,Please start the approval process for David Fisher.,ambiguous,request_prior_authorization,request_prior_authorization,0.6228167414665222,13.06,0,3
+embedding,20,Does Kevin Jimenez have benifits for Fertility treatment?,typo,check_patient_policy,check_patient_policy,0.5597983598709106,14.25,0,2
+embedding,20,Does Kevin Jimenez have benifits for Fertility treatment?,typo,check_patient_policy,check_patient_policy,0.5597983598709106,18.46,0,3
+embedding,77,"Calculate the balance for Sarah Santiago at $7,795.98 with $4,576.68 insurance and state the difference.",multi_intent,calculate_out_of_pocket,calculate_out_of_pocket,0.7931762933731079,22.27,0,2
+embedding,77,"Calculate the balance for Sarah Santiago at $7,795.98 with $4,576.68 insurance and state the difference.",multi_intent,calculate_out_of_pocket,calculate_out_of_pocket,0.7931762933731079,18.95,0,3
+embedding,132,Please have a specialist review what happened to Nicholas Cook.,ambiguous,escalate_to_human_specialist,escalate_to_human_specialist,0.384727418422699,16.43,0,2
+embedding,132,Please have a specialist review what happened to Nicholas Cook.,ambiguous,escalate_to_human_specialist,escalate_to_human_specialist,0.384727418422699,17.49,0,3
+embedding,69,What would Jean Coleman's out-of-pocket amount be?,ambiguous,calculate_out_of_pocket,calculate_out_of_pocket,0.696820855140686,17.19,0,2
+embedding,69,What would Jean Coleman's out-of-pocket amount be?,ambiguous,calculate_out_of_pocket,calculate_out_of_pocket,0.696820855140686,20.68,0,3
+embedding,66,What is the remaining balance for Michael Rich?,ambiguous,calculate_out_of_pocket,calculate_out_of_pocket,0.6582028865814209,20.31,0,2
+embedding,66,What is the remaining balance for Michael Rich?,ambiguous,calculate_out_of_pocket,calculate_out_of_pocket,0.6582028865814209,15.14,0,3
+embedding,90,Arrange the required pre-clearance for Genetic testing for Bryce Jennings.,paraphrase,request_prior_authorization,request_prior_authorization,0.49626797437667847,15.6,0,2
+embedding,90,Arrange the required pre-clearance for Genetic testing for Bryce Jennings.,paraphrase,request_prior_authorization,request_prior_authorization,0.49626797437667847,18.27,0,3
+embedding,32,"Look up the plan limit for Stephen Hamilton, please.",ambiguous,check_patient_policy,check_patient_policy,0.4064874053001404,11.81,0,2
+embedding,32,"Look up the plan limit for Stephen Hamilton, please.",ambiguous,check_patient_policy,check_patient_policy,0.4064874053001404,22.04,0,3
+embedding,40,"First check whether Kaylee Chavez's Acupuncture is covered, then summarize the policy rule.",multi_intent,check_patient_policy,check_patient_policy,0.5365864634513855,18.73,0,2
+embedding,40,"First check whether Kaylee Chavez's Acupuncture is covered, then summarize the policy rule.",multi_intent,check_patient_policy,check_patient_policy,0.5365864634513855,16.06,0,3
+embedding,113,"Request prior authorization for Tonya Palmer's Acupuncture, then check its coverage limit.",multi_intent,request_prior_authorization,check_patient_policy,0.4333140552043915,17.67,0,2
+embedding,113,"Request prior authorization for Tonya Palmer's Acupuncture, then check its coverage limit.",multi_intent,request_prior_authorization,check_patient_policy,0.4333140552043915,20.18,0,3
+embedding,149,This is outside the available tools: Angela Maxwell wants help changing their mailing address.,out_of_scope,escalate_to_human_specialist,escalate_to_human_specialist,0.6271783113479614,21.85,0,2
+embedding,149,This is outside the available tools: Angela Maxwell wants help changing their mailing address.,out_of_scope,escalate_to_human_specialist,escalate_to_human_specialist,0.6271783113479614,12.65,0,3
+embedding,46,"What balance does Marc Walton owe if the treatment is $7,308.14 and insurance covers up to $4,576.68?",clean,calculate_out_of_pocket,calculate_out_of_pocket,0.7479433417320251,15.85,0,2
+embedding,46,"What balance does Marc Walton owe if the treatment is $7,308.14 and insurance covers up to $4,576.68?",clean,calculate_out_of_pocket,calculate_out_of_pocket,0.7479433417320251,19.97,0,3
+embedding,100,Can you file an authrization for Randall Flores to get Acupuncture?,typo,request_prior_authorization,request_prior_authorization,0.41681551933288574,17.68,0,2
+embedding,100,Can you file an authrization for Randall Flores to get Acupuncture?,typo,request_prior_authorization,request_prior_authorization,0.41681551933288574,21.24,0,3
+embedding,64,"Figure Amber Gardner's balence after a $15,293.79 allowance against $14,592.93.",typo,calculate_out_of_pocket,calculate_out_of_pocket,0.7838786840438843,23.02,0,2
+embedding,64,"Figure Amber Gardner's balence after a $15,293.79 allowance against $14,592.93.",typo,calculate_out_of_pocket,calculate_out_of_pocket,0.7838786840438843,22.76,0,3
+embedding,94,Put in the pre-certification request for Joel Werner's Prescription medication.,paraphrase,request_prior_authorization,request_prior_authorization,0.5406548976898193,17.53,0,2
+embedding,94,Put in the pre-certification request for Joel Werner's Prescription medication.,paraphrase,request_prior_authorization,request_prior_authorization,0.5406548976898193,21.68,0,3
+embedding,8,Please check the policy rule for Alex Hawkins's Genetic testing.,clean,check_patient_policy,check_patient_policy,0.3831859529018402,16.1,0,2
+embedding,8,Please check the policy rule for Alex Hawkins's Genetic testing.,clean,check_patient_policy,check_patient_policy,0.3831859529018402,24.99,0,3
+embedding,153,This request is outside claim support. Connect Shannon Powell with someone about a bill payment plan.,out_of_scope,escalate_to_human_specialist,request_prior_authorization,0.3892722725868225,24.57,0,2
+embedding,153,This request is outside claim support. Connect Shannon Powell with someone about a bill payment plan.,out_of_scope,escalate_to_human_specialist,request_prior_authorization,0.3892722725868225,22.1,0,3
+embedding,42,"Calculate what Austin Adams owes on a $54,501.92 bill with $56,069.54 of coverage.",clean,calculate_out_of_pocket,calculate_out_of_pocket,0.7882487177848816,18.37,0,2
+embedding,42,"Calculate what Austin Adams owes on a $54,501.92 bill with $56,069.54 of coverage.",clean,calculate_out_of_pocket,calculate_out_of_pocket,0.7882487177848816,18.04,0,3
+embedding,120,Have Curtis Howard's Hearing aids reviewed in advance and report the coverage limit.,multi_intent,request_prior_authorization,check_patient_policy,0.3880040943622589,24.26,0,2
+embedding,120,Have Curtis Howard's Hearing aids reviewed in advance and report the coverage limit.,multi_intent,request_prior_authorization,check_patient_policy,0.3880040943622589,12.34,0,3
+embedding,27,Can you look up whether this is included for Julie Olson?,ambiguous,check_patient_policy,check_patient_policy,0.27808377146720886,20.03,0,2
+embedding,27,Can you look up whether this is included for Julie Olson?,ambiguous,check_patient_policy,check_patient_policy,0.27808377146720886,21.36,0,3
+embedding,124,Have a person look into Robin Conley's unresolved claim issue.,paraphrase,escalate_to_human_specialist,escalate_to_human_specialist,0.5945079326629639,17.72,0,2
+embedding,124,Have a person look into Robin Conley's unresolved claim issue.,paraphrase,escalate_to_human_specialist,escalate_to_human_specialist,0.5945079326629639,16.95,0,3
+embedding,29,Please check the insurance details for John Noble.,ambiguous,check_patient_policy,check_patient_policy,0.3742234706878662,13.87,0,2
+embedding,29,Please check the insurance details for John Noble.,ambiguous,check_patient_policy,check_patient_policy,0.3742234706878662,19.23,0,3
+embedding,116,"File a prior auth for Julie Cordova's Outpatient surgery; if it is disputed, send it to a specialist.",multi_intent,request_prior_authorization,request_prior_authorization,0.521510660648346,21.28,0,2
+embedding,116,"File a prior auth for Julie Cordova's Outpatient surgery; if it is disputed, send it to a specialist.",multi_intent,request_prior_authorization,request_prior_authorization,0.521510660648346,18.96,0,3
+embedding,87,Open a prior approval request for Dean Brown's Ambulance transport.,clean,request_prior_authorization,request_prior_authorization,0.4929824471473694,16.57,0,2
+embedding,87,Open a prior approval request for Dean Brown's Ambulance transport.,clean,request_prior_authorization,request_prior_authorization,0.4929824471473694,15.08,0,3
+embedding,15,Is there a benefit cap for Zoe Palmer when it comes to Knee replacement?,paraphrase,check_patient_policy,check_patient_policy,0.34821560978889465,18.74,0,2
+embedding,15,Is there a benefit cap for Zoe Palmer when it comes to Knee replacement?,paraphrase,check_patient_policy,check_patient_policy,0.34821560978889465,22.21,0,3
+embedding,38,"Check the policy for Sandra Stewart's Hearing aids, and confirm the patient's age.",multi_intent,check_patient_policy,request_prior_authorization,0.3389207422733307,17.39,0,2
+embedding,38,"Check the policy for Sandra Stewart's Hearing aids, and confirm the patient's age.",multi_intent,check_patient_policy,request_prior_authorization,0.3389207422733307,24.91,0,3
+embedding,157,Please route Patrick Douglas's request to update a dependent to a live support representative.,out_of_scope,escalate_to_human_specialist,escalate_to_human_specialist,0.40616562962532043,21.93,0,2
+embedding,157,Please route Patrick Douglas's request to update a dependent to a live support representative.,out_of_scope,escalate_to_human_specialist,escalate_to_human_specialist,0.40616562962532043,17.03,0,3
+embedding,70,Can you work out the uncovered portion of Blake Torres's care?,ambiguous,calculate_out_of_pocket,check_patient_policy,0.3467271029949188,17.87,0,2
+embedding,70,Can you work out the uncovered portion of Blake Torres's care?,ambiguous,calculate_out_of_pocket,check_patient_policy,0.3467271029949188,15.26,0,3
+embedding,138,"A human should handle Stephanie Werner's request to change a pharmacy, which this tool cannot do.",out_of_scope,escalate_to_human_specialist,escalate_to_human_specialist,0.6193554997444153,24.68,0,2
+embedding,138,"A human should handle Stephanie Werner's request to change a pharmacy, which this tool cannot do.",out_of_scope,escalate_to_human_specialist,escalate_to_human_specialist,0.6193554997444153,23.36,0,3
+embedding,151,Have a live representative discuss plan enrollment with Courtney Nguyen; it is not a policy lookup.,out_of_scope,escalate_to_human_specialist,check_patient_policy,0.32212021946907043,20.59,0,2
+embedding,151,Have a live representative discuss plan enrollment with Courtney Nguyen; it is not a policy lookup.,out_of_scope,escalate_to_human_specialist,check_patient_policy,0.32212021946907043,21.83,0,3
+embedding,148,Please send Melinda Bryant's request for a specialist recommendation to a human.,out_of_scope,escalate_to_human_specialist,escalate_to_human_specialist,0.5422855615615845,17.08,0,2
+embedding,148,Please send Melinda Bryant's request for a specialist recommendation to a human.,out_of_scope,escalate_to_human_specialist,escalate_to_human_specialist,0.5422855615615845,16.57,0,3
+embedding,68,How much is left after insurance for Tina Martin?,ambiguous,calculate_out_of_pocket,calculate_out_of_pocket,0.5842125415802002,18.47,0,2
+embedding,68,How much is left after insurance for Tina Martin?,ambiguous,calculate_out_of_pocket,calculate_out_of_pocket,0.5842125415802002,19.94,0,3
+embedding,7,Tell me if Alex Burke has coverage for Experimental gene therapy and the maximum amount.,clean,check_patient_policy,check_patient_policy,0.610166072845459,21.89,0,2
+embedding,7,Tell me if Alex Burke has coverage for Experimental gene therapy and the maximum amount.,clean,check_patient_policy,check_patient_policy,0.610166072845459,15.99,0,3
+embedding,59,"Work out Gabriel Martinez's remaing balance for $140,948.49 cost and $124,359.29 insurence.",typo,calculate_out_of_pocket,calculate_out_of_pocket,0.7462629675865173,21.97,0,2
+embedding,59,"Work out Gabriel Martinez's remaing balance for $140,948.49 cost and $124,359.29 insurence.",typo,calculate_out_of_pocket,calculate_out_of_pocket,0.7462629675865173,17.92,0,3
+embedding,115,"Start authorization for Organ transplant for Matthew Smith, and calculate the patient cost.",multi_intent,request_prior_authorization,calculate_out_of_pocket,0.32549113035202026,16.94,0,2
+embedding,115,"Start authorization for Organ transplant for Matthew Smith, and calculate the patient cost.",multi_intent,request_prior_authorization,calculate_out_of_pocket,0.32549113035202026,17.12,0,3
+embedding,127,Escalate Patrick Lutz's claim dispuit to a human specialist.,typo,escalate_to_human_specialist,escalate_to_human_specialist,0.4799247682094574,23.57,0,2
+embedding,127,Escalate Patrick Lutz's claim dispuit to a human specialist.,typo,escalate_to_human_specialist,escalate_to_human_specialist,0.4799247682094574,20.19,0,3
+embedding,111,Can you send Ernest Raymond's request to insurance for review?,ambiguous,request_prior_authorization,escalate_to_human_specialist,0.3395284414291382,14.35,0,2
+embedding,111,Can you send Ernest Raymond's request to insurance for review?,ambiguous,request_prior_authorization,escalate_to_human_specialist,0.3395284414291382,16.64,0,3
+embedding,137,Please send Karen Henderson to a live representative for a legal question about the accident.,out_of_scope,escalate_to_human_specialist,escalate_to_human_specialist,0.46739983558654785,17.03,0,2
+embedding,137,Please send Karen Henderson to a live representative for a legal question about the accident.,out_of_scope,escalate_to_human_specialist,escalate_to_human_specialist,0.46739983558654785,21.87,0,3
+embedding,21,Please verfy the coverage limit for Jonathan Christensen's Stem cell therapy.,typo,check_patient_policy,check_patient_policy,0.5984089374542236,17.74,0,2
+embedding,21,Please verfy the coverage limit for Jonathan Christensen's Stem cell therapy.,typo,check_patient_policy,check_patient_policy,0.5984089374542236,14.26,0,3
+embedding,60,"What is the out-of-poket amount for Laura Ballard: $15,185.72 cost, $0.00 limit?",typo,calculate_out_of_pocket,calculate_out_of_pocket,0.8136882781982422,15.82,0,2
+embedding,60,"What is the out-of-poket amount for Laura Ballard: $15,185.72 cost, $0.00 limit?",typo,calculate_out_of_pocket,calculate_out_of_pocket,0.8136882781982422,22.91,0,3
+embedding,1,"Is Alex Wilson's Inpatient rehabilitation covered, and what is the policy limit?",clean,check_patient_policy,check_patient_policy,0.5908596515655518,17.19,0,2
+embedding,1,"Is Alex Wilson's Inpatient rehabilitation covered, and what is the policy limit?",clean,check_patient_policy,check_patient_policy,0.5908596515655518,16.79,0,3
+hybrid,33,"Check coverage for Derrick Johnson's Knee replacement, then tell me the diagnosis on file.",multi_intent,check_patient_policy,check_patient_policy,0.5636,1168.1,0,2
+hybrid,33,"Check coverage for Derrick Johnson's Knee replacement, then tell me the diagnosis on file.",multi_intent,check_patient_policy,check_patient_policy,0.5636,1254.74,0,3
+hybrid,117,Get advance approval for Shannon Ho's Mental health counseling and verify the policy rule.,multi_intent,request_prior_authorization,check_patient_policy,0.0,8620.62,44,2
+hybrid,117,Get advance approval for Shannon Ho's Mental health counseling and verify the policy rule.,multi_intent,request_prior_authorization,check_patient_policy,0.0,8191.13,44,3
+hybrid,97,Submmit prior auth for Heather Moss's X-ray.,typo,request_prior_authorization,request_prior_authorization,0.5673,1049.3,0,2
+hybrid,97,Submmit prior auth for Heather Moss's X-ray.,typo,request_prior_authorization,request_prior_authorization,0.5673,1050.3,0,3
+hybrid,125,Arrange a call from an insurance specialist for Rebecca Fowler's dispute.,paraphrase,escalate_to_human_specialist,escalate_to_human_specialist,0.0,6974.84,35,2
+hybrid,125,Arrange a call from an insurance specialist for Rebecca Fowler's dispute.,paraphrase,escalate_to_human_specialist,escalate_to_human_specialist,0.0,6678.19,35,3
+hybrid,80,"Please find the out-of-pocket amount for Mike Peters and confirm the $8,385.43 limit.",multi_intent,calculate_out_of_pocket,calculate_out_of_pocket,0.8767,1117.37,0,2
+hybrid,80,"Please find the out-of-pocket amount for Mike Peters and confirm the $8,385.43 limit.",multi_intent,calculate_out_of_pocket,calculate_out_of_pocket,0.8767,1097.67,0,3
+hybrid,58,"How much does Jordan Murphy owe after $47,855.42 coverge on a $30,749.31 bill?",typo,calculate_out_of_pocket,calculate_out_of_pocket,0.8315,1131.47,0,2
+hybrid,58,"How much does Jordan Murphy owe after $47,855.42 coverge on a $30,749.31 bill?",typo,calculate_out_of_pocket,calculate_out_of_pocket,0.8315,1131.27,0,3
+hybrid,152,Please ask a human to help Evelyn Meadows schedule a routine checkup.,out_of_scope,escalate_to_human_specialist,escalate_to_human_specialist,0.0,7434.2,40,2
+hybrid,152,Please ask a human to help Evelyn Meadows schedule a routine checkup.,out_of_scope,escalate_to_human_specialist,escalate_to_human_specialist,0.0,7389.75,40,3
+hybrid,106,Please start the approval process for David Fisher.,ambiguous,request_prior_authorization,request_prior_authorization,0.0,6760.94,36,2
+hybrid,106,Please start the approval process for David Fisher.,ambiguous,request_prior_authorization,request_prior_authorization,0.0,6754.6,36,3
+hybrid,20,Does Kevin Jimenez have benifits for Fertility treatment?,typo,check_patient_policy,check_patient_policy,0.0,7971.72,44,2
+hybrid,20,Does Kevin Jimenez have benifits for Fertility treatment?,typo,check_patient_policy,check_patient_policy,0.0,7973.66,44,3
+hybrid,77,"Calculate the balance for Sarah Santiago at $7,795.98 with $4,576.68 insurance and state the difference.",multi_intent,calculate_out_of_pocket,calculate_out_of_pocket,0.8933,1172.73,0,2
+hybrid,77,"Calculate the balance for Sarah Santiago at $7,795.98 with $4,576.68 insurance and state the difference.",multi_intent,calculate_out_of_pocket,calculate_out_of_pocket,0.8933,1179.91,0,3
+hybrid,132,Please have a specialist review what happened to Nicholas Cook.,ambiguous,escalate_to_human_specialist,escalate_to_human_specialist,0.0,7486.45,41,2
+hybrid,132,Please have a specialist review what happened to Nicholas Cook.,ambiguous,escalate_to_human_specialist,escalate_to_human_specialist,0.0,7519.72,41,3
+hybrid,69,What would Jean Coleman's out-of-pocket amount be?,ambiguous,calculate_out_of_pocket,calculate_out_of_pocket,0.8823,1046.22,0,2
+hybrid,69,What would Jean Coleman's out-of-pocket amount be?,ambiguous,calculate_out_of_pocket,calculate_out_of_pocket,0.8823,1039.54,0,3
+hybrid,66,What is the remaining balance for Michael Rich?,ambiguous,calculate_out_of_pocket,calculate_out_of_pocket,0.0,7063.8,38,2
+hybrid,66,What is the remaining balance for Michael Rich?,ambiguous,calculate_out_of_pocket,calculate_out_of_pocket,0.0,7064.55,38,3
+hybrid,90,Arrange the required pre-clearance for Genetic testing for Bryce Jennings.,paraphrase,request_prior_authorization,request_prior_authorization,0.0,6565.63,35,2
+hybrid,90,Arrange the required pre-clearance for Genetic testing for Bryce Jennings.,paraphrase,request_prior_authorization,request_prior_authorization,0.0,6741.19,35,3
+hybrid,32,"Look up the plan limit for Stephen Hamilton, please.",ambiguous,check_patient_policy,check_patient_policy,0.0,4901.53,23,2
+hybrid,32,"Look up the plan limit for Stephen Hamilton, please.",ambiguous,check_patient_policy,check_patient_policy,0.0,4872.17,23,3
+hybrid,40,"First check whether Kaylee Chavez's Acupuncture is covered, then summarize the policy rule.",multi_intent,check_patient_policy,check_patient_policy,0.8346,1213.41,0,2
+hybrid,40,"First check whether Kaylee Chavez's Acupuncture is covered, then summarize the policy rule.",multi_intent,check_patient_policy,check_patient_policy,0.8346,1083.45,0,3
+hybrid,113,"Request prior authorization for Tonya Palmer's Acupuncture, then check its coverage limit.",multi_intent,request_prior_authorization,request_prior_authorization,0.8993,1100.58,0,2
+hybrid,113,"Request prior authorization for Tonya Palmer's Acupuncture, then check its coverage limit.",multi_intent,request_prior_authorization,request_prior_authorization,0.8993,1101.97,0,3
+hybrid,149,This is outside the available tools: Angela Maxwell wants help changing their mailing address.,out_of_scope,escalate_to_human_specialist,escalate_to_human_specialist,0.0,8656.75,41,2
+hybrid,149,This is outside the available tools: Angela Maxwell wants help changing their mailing address.,out_of_scope,escalate_to_human_specialist,escalate_to_human_specialist,0.0,7721.14,41,3
+hybrid,46,"What balance does Marc Walton owe if the treatment is $7,308.14 and insurance covers up to $4,576.68?",clean,calculate_out_of_pocket,calculate_out_of_pocket,0.5486,1155.0,0,2
+hybrid,46,"What balance does Marc Walton owe if the treatment is $7,308.14 and insurance covers up to $4,576.68?",clean,calculate_out_of_pocket,calculate_out_of_pocket,0.5486,1132.19,0,3
+hybrid,100,Can you file an authrization for Randall Flores to get Acupuncture?,typo,request_prior_authorization,request_prior_authorization,0.8963,1469.82,0,2
+hybrid,100,Can you file an authrization for Randall Flores to get Acupuncture?,typo,request_prior_authorization,request_prior_authorization,0.8963,1162.28,0,3
+hybrid,64,"Figure Amber Gardner's balence after a $15,293.79 allowance against $14,592.93.",typo,calculate_out_of_pocket,calculate_out_of_pocket,0.9354,519.18,0,2
+hybrid,64,"Figure Amber Gardner's balence after a $15,293.79 allowance against $14,592.93.",typo,calculate_out_of_pocket,calculate_out_of_pocket,0.9354,517.84,0,3
+hybrid,94,Put in the pre-certification request for Joel Werner's Prescription medication.,paraphrase,request_prior_authorization,request_prior_authorization,0.0,6865.67,34,2
+hybrid,94,Put in the pre-certification request for Joel Werner's Prescription medication.,paraphrase,request_prior_authorization,request_prior_authorization,0.0,6544.77,34,3
+hybrid,8,Please check the policy rule for Alex Hawkins's Genetic testing.,clean,check_patient_policy,check_patient_policy,0.8834,1051.03,0,2
+hybrid,8,Please check the policy rule for Alex Hawkins's Genetic testing.,clean,check_patient_policy,check_patient_policy,0.8834,1039.68,0,3
+hybrid,153,This request is outside claim support. Connect Shannon Powell with someone about a bill payment plan.,out_of_scope,escalate_to_human_specialist,escalate_to_human_specialist,0.0,7260.95,39,2
+hybrid,153,This request is outside claim support. Connect Shannon Powell with someone about a bill payment plan.,out_of_scope,escalate_to_human_specialist,escalate_to_human_specialist,0.0,7183.31,39,3
+hybrid,42,"Calculate what Austin Adams owes on a $54,501.92 bill with $56,069.54 of coverage.",clean,calculate_out_of_pocket,calculate_out_of_pocket,0.9181,1133.22,0,2
+hybrid,42,"Calculate what Austin Adams owes on a $54,501.92 bill with $56,069.54 of coverage.",clean,calculate_out_of_pocket,calculate_out_of_pocket,0.9181,1099.98,0,3
+hybrid,120,Have Curtis Howard's Hearing aids reviewed in advance and report the coverage limit.,multi_intent,request_prior_authorization,request_prior_authorization,0.0,6679.3,35,2
+hybrid,120,Have Curtis Howard's Hearing aids reviewed in advance and report the coverage limit.,multi_intent,request_prior_authorization,request_prior_authorization,0.0,6689.22,35,3
+hybrid,27,Can you look up whether this is included for Julie Olson?,ambiguous,check_patient_policy,check_patient_policy,0.0,5030.32,24,2
+hybrid,27,Can you look up whether this is included for Julie Olson?,ambiguous,check_patient_policy,check_patient_policy,0.0,5069.31,24,3
+hybrid,124,Have a person look into Robin Conley's unresolved claim issue.,paraphrase,escalate_to_human_specialist,escalate_to_human_specialist,0.0,6921.16,37,2
+hybrid,124,Have a person look into Robin Conley's unresolved claim issue.,paraphrase,escalate_to_human_specialist,escalate_to_human_specialist,0.0,6915.24,37,3
+hybrid,29,Please check the insurance details for John Noble.,ambiguous,check_patient_policy,check_patient_policy,0.3379,1032.08,0,2
+hybrid,29,Please check the insurance details for John Noble.,ambiguous,check_patient_policy,check_patient_policy,0.3379,1034.62,0,3
+hybrid,116,"File a prior auth for Julie Cordova's Outpatient surgery; if it is disputed, send it to a specialist.",multi_intent,request_prior_authorization,request_prior_authorization,0.7821,1135.16,0,2
+hybrid,116,"File a prior auth for Julie Cordova's Outpatient surgery; if it is disputed, send it to a specialist.",multi_intent,request_prior_authorization,request_prior_authorization,0.7821,1126.67,0,3
+hybrid,87,Open a prior approval request for Dean Brown's Ambulance transport.,clean,request_prior_authorization,request_prior_authorization,0.6592,1179.32,0,2
+hybrid,87,Open a prior approval request for Dean Brown's Ambulance transport.,clean,request_prior_authorization,request_prior_authorization,0.6592,1082.01,0,3
+hybrid,15,Is there a benefit cap for Zoe Palmer when it comes to Knee replacement?,paraphrase,check_patient_policy,check_patient_policy,0.0,6430.49,33,2
+hybrid,15,Is there a benefit cap for Zoe Palmer when it comes to Knee replacement?,paraphrase,check_patient_policy,check_patient_policy,0.0,6795.97,33,3
+hybrid,38,"Check the policy for Sandra Stewart's Hearing aids, and confirm the patient's age.",multi_intent,check_patient_policy,check_patient_policy,0.9389,1149.32,0,2
+hybrid,38,"Check the policy for Sandra Stewart's Hearing aids, and confirm the patient's age.",multi_intent,check_patient_policy,check_patient_policy,0.9389,1115.37,0,3
+hybrid,157,Please route Patrick Douglas's request to update a dependent to a live support representative.,out_of_scope,escalate_to_human_specialist,escalate_to_human_specialist,0.0,7094.56,38,2
+hybrid,157,Please route Patrick Douglas's request to update a dependent to a live support representative.,out_of_scope,escalate_to_human_specialist,escalate_to_human_specialist,0.0,6971.74,38,3
+hybrid,70,Can you work out the uncovered portion of Blake Torres's care?,ambiguous,calculate_out_of_pocket,calculate_out_of_pocket,0.3242,1059.73,0,2
+hybrid,70,Can you work out the uncovered portion of Blake Torres's care?,ambiguous,calculate_out_of_pocket,calculate_out_of_pocket,0.3242,1045.21,0,3
+hybrid,138,"A human should handle Stephanie Werner's request to change a pharmacy, which this tool cannot do.",out_of_scope,escalate_to_human_specialist,escalate_to_human_specialist,0.785,1072.23,0,2
+hybrid,138,"A human should handle Stephanie Werner's request to change a pharmacy, which this tool cannot do.",out_of_scope,escalate_to_human_specialist,escalate_to_human_specialist,0.785,1079.0,0,3
+hybrid,151,Have a live representative discuss plan enrollment with Courtney Nguyen; it is not a policy lookup.,out_of_scope,escalate_to_human_specialist,escalate_to_human_specialist,0.0,7041.35,36,2
+hybrid,151,Have a live representative discuss plan enrollment with Courtney Nguyen; it is not a policy lookup.,out_of_scope,escalate_to_human_specialist,escalate_to_human_specialist,0.0,7113.26,36,3
+hybrid,148,Please send Melinda Bryant's request for a specialist recommendation to a human.,out_of_scope,escalate_to_human_specialist,escalate_to_human_specialist,0.0,7205.47,38,2
+hybrid,148,Please send Melinda Bryant's request for a specialist recommendation to a human.,out_of_scope,escalate_to_human_specialist,escalate_to_human_specialist,0.0,7251.82,38,3
+hybrid,68,How much is left after insurance for Tina Martin?,ambiguous,calculate_out_of_pocket,calculate_out_of_pocket,0.0,8000.5,38,2
+hybrid,68,How much is left after insurance for Tina Martin?,ambiguous,calculate_out_of_pocket,calculate_out_of_pocket,0.0,7605.12,38,3
+hybrid,7,Tell me if Alex Burke has coverage for Experimental gene therapy and the maximum amount.,clean,check_patient_policy,check_patient_policy,0.3436,1101.99,0,2
+hybrid,7,Tell me if Alex Burke has coverage for Experimental gene therapy and the maximum amount.,clean,check_patient_policy,check_patient_policy,0.3436,1084.62,0,3
+hybrid,59,"Work out Gabriel Martinez's remaing balance for $140,948.49 cost and $124,359.29 insurence.",typo,calculate_out_of_pocket,calculate_out_of_pocket,0.7491,1278.35,0,2
+hybrid,59,"Work out Gabriel Martinez's remaing balance for $140,948.49 cost and $124,359.29 insurence.",typo,calculate_out_of_pocket,calculate_out_of_pocket,0.7491,1218.84,0,3
+hybrid,115,"Start authorization for Organ transplant for Matthew Smith, and calculate the patient cost.",multi_intent,request_prior_authorization,request_prior_authorization,0.0,12750.04,74,2
+hybrid,115,"Start authorization for Organ transplant for Matthew Smith, and calculate the patient cost.",multi_intent,request_prior_authorization,request_prior_authorization,0.0,13097.33,74,3
+hybrid,127,Escalate Patrick Lutz's claim dispuit to a human specialist.,typo,escalate_to_human_specialist,escalate_to_human_specialist,0.8088,1247.4,0,2
+hybrid,127,Escalate Patrick Lutz's claim dispuit to a human specialist.,typo,escalate_to_human_specialist,escalate_to_human_specialist,0.8088,1265.08,0,3
+hybrid,111,Can you send Ernest Raymond's request to insurance for review?,ambiguous,request_prior_authorization,request_prior_authorization,0.0,7040.12,37,2
+hybrid,111,Can you send Ernest Raymond's request to insurance for review?,ambiguous,request_prior_authorization,request_prior_authorization,0.0,7009.69,37,3
+hybrid,137,Please send Karen Henderson to a live representative for a legal question about the accident.,out_of_scope,escalate_to_human_specialist,escalate_to_human_specialist,0.0,6971.24,37,2
+hybrid,137,Please send Karen Henderson to a live representative for a legal question about the accident.,out_of_scope,escalate_to_human_specialist,escalate_to_human_specialist,0.0,7149.17,37,3
+hybrid,21,Please verfy the coverage limit for Jonathan Christensen's Stem cell therapy.,typo,check_patient_policy,check_patient_policy,0.0,8029.66,42,2
+hybrid,21,Please verfy the coverage limit for Jonathan Christensen's Stem cell therapy.,typo,check_patient_policy,check_patient_policy,0.0,7815.14,42,3
+hybrid,60,"What is the out-of-poket amount for Laura Ballard: $15,185.72 cost, $0.00 limit?",typo,calculate_out_of_pocket,calculate_out_of_pocket,0.7572,1459.9,0,2
+hybrid,60,"What is the out-of-poket amount for Laura Ballard: $15,185.72 cost, $0.00 limit?",typo,calculate_out_of_pocket,calculate_out_of_pocket,0.7572,1290.0,0,3
+hybrid,1,"Is Alex Wilson's Inpatient rehabilitation covered, and what is the policy limit?",clean,check_patient_policy,check_patient_policy,0.633,1156.51,0,2
+hybrid,1,"Is Alex Wilson's Inpatient rehabilitation covered, and what is the policy limit?",clean,check_patient_policy,check_patient_policy,0.633,1189.6,0,3
